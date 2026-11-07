@@ -1,0 +1,14 @@
+key,structure_id,parcel_property_id,footprint_m2,height_m,roof,footprint_parts,first_mapped,era,captured,storeys_est,storeys_from,floor_m2_est,floor_share_pct,floor_to_footprint,clue_property_id,clue_building_name,clue_construction_year,clue_refurbished_year,clue_floors,clue_space_use,clue_accessibility_rating,clue_accessibility_type,clue_bicycle_spaces
+B01,811846,109209,6433.7,18.0,Flat/Hip,10,2014,"1930, built (CLUE)",20180528,3,CLUE floors (cap),17939,75.9,2.79,109209,University High School,1930,2008,3,Educational/Research,2,Moderate level of accessibility,0
+B02,811844,109209,883.3,13.5,Flat/Gable/Hip,3,2014,On the 2014 outlines,20180528,3,height,1960,8.3,2.22,,,,,,,,,
+B03,811043,674741,835.8,18.0,Flat,4,2015,"2014, built (CLUE)",20180528,3,CLUE floors (cap),2386,10.1,2.85,674741,Building 405 Elizabeth Blackburn,2014,,3,Educational/Research,3,High level of accessibility,0
+B04,900635,109209,204.6,4.0,Gable,1,2023,Shown from the 2023 footprints,20220120,1,height,205,0.9,1.0,,,,,,,,,
+B05,900636,109209,202.0,3.8,Gable,1,2023,Shown from the 2023 footprints,20220120,1,height,203,0.9,1.0,,,,,,,,,
+B06,901093,109209,198.5,3.7,Gable,1,2023,Shown from the 2023 footprints,20220120,1,height,199,0.8,1.0,,,,,,,,,
+B07,900641,109209,197.8,3.7,Gable,1,2023,Shown from the 2023 footprints,20220120,1,height,199,0.8,1.01,,,,,,,,,
+B08,900645,109209,197.4,3.8,Gable,1,2023,Shown from the 2023 footprints,20220120,1,height,198,0.8,1.0,,,,,,,,,
+B09,900644,109209,194.8,3.9,Gable,1,2023,Shown from the 2023 footprints,20220120,1,height,195,0.8,1.0,,,,,,,,,
+B10,811842,109209,71.8,3.0,Flat,1,2014,On the 2014 outlines,20180528,1,height,72,0.3,1.0,,,,,,,,,
+B11,811847,109209,38.2,4.5,Flat,1,2018,Shown from the 2018 footprints,20180528,1,height,39,0.2,1.02,,,,,,,,,
+B12,811845,109209,13.5,3.0,Gable,1,2018,Shown from the 2018 footprints,20180528,1,height,14,0.1,1.04,,,,,,,,,
+B13,811843,109209,12.7,2.5,Gable,1,2018,Shown from the 2018 footprints,20180528,1,height,15,0.1,1.18,,,,,,,,,

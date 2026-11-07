@@ -1,0 +1,144 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "88e06eb39193564a19cf",
+  "position": {
+    "x": 1180,
+    "y": 270,
+    "z": 1,
+    "height": 740,
+    "width": 700,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "key"
+                }
+              },
+              "queryRef": "Buildings.key",
+              "nativeQueryRef": "key"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "era"
+                }
+              },
+              "queryRef": "Buildings.era",
+              "nativeQueryRef": "era"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "footprint_m2"
+                }
+              },
+              "queryRef": "Buildings.footprint_m2",
+              "nativeQueryRef": "footprint_m2"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "height_m"
+                }
+              },
+              "queryRef": "Buildings.height_m",
+              "nativeQueryRef": "height_m"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "storeys_est"
+                }
+              },
+              "queryRef": "Buildings.storeys_est",
+              "nativeQueryRef": "storeys_est"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "Floor share"
+                }
+              },
+              "queryRef": "Buildings.Floor share",
+              "nativeQueryRef": "Floor share"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "clue_accessibility_rating"
+                }
+              },
+              "queryRef": "Buildings.clue_accessibility_rating",
+              "nativeQueryRef": "clue_accessibility_rating"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Each building'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

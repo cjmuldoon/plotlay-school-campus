@@ -1,0 +1,78 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "1fa014b2b5dc3a7dcb18",
+  "position": {
+    "x": 40,
+    "y": 130,
+    "z": 1,
+    "height": 880,
+    "width": 1100,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "shapeMap",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "key"
+                }
+              },
+              "queryRef": "Buildings.key",
+              "nativeQueryRef": "key"
+            }
+          ]
+        },
+        "Legend": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "sample_condition"
+                }
+              },
+              "queryRef": "SampleMadeUp.sample_condition",
+              "nativeQueryRef": "sample_condition"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'SAMPLE (made up): condition by building id'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "3b4f5efafe68fca4c953",
+  "position": {
+    "x": 1360,
+    "y": 120,
+    "z": 1,
+    "height": 160,
+    "width": 520,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "Students 2025"
+                }
+              },
+              "queryRef": "Buildings.Students 2025",
+              "nativeQueryRef": "Students 2025"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Students, February 2025 (FTE)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

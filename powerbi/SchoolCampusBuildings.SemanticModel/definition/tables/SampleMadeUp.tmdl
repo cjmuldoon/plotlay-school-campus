@@ -1,0 +1,132 @@
+table SampleMadeUp
+	lineageTag: 9c16d2e0-3a22-76eb-6516-d399d6b41a0d
+
+	/// SAMPLE DATA, MADE UP: not about any real building
+	measure 'SAMPLE backlog AUD (made up)' = SUM ( SampleMadeUp[sample_backlog_aud] )
+		formatString: #,0
+		displayFolder: Sample data (made up)
+		lineageTag: c09c6201-0c04-0518-4a29-9a8cecc45fe9
+
+	/// SAMPLE DATA, MADE UP: invented meter readings over the estimated floor
+	measure 'SAMPLE kWh per m2 floor (made up)' = DIVIDE ( SUM ( SampleMadeUp[sample_electricity_kwh_yr] ), [Floor m2 estimated] )
+		formatString: #,0
+		displayFolder: Sample data (made up)
+		lineageTag: b634605c-28dd-f677-348c-a836794e89f0
+
+	column key
+		dataType: string
+		isHidden
+		lineageTag: 7fcddd7e-2887-35f0-89f4-574e31b04c22
+		summarizeBy: none
+		sourceColumn: key
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 59daed85-5367-54c2-67cf-d3bbd92cb227
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_condition
+		dataType: string
+		lineageTag: f2c91dcb-436b-879d-b61b-d7cd23bf7ccb
+		summarizeBy: none
+		sourceColumn: sample_condition
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_condition_1to5
+		dataType: int64
+		formatString: 0
+		lineageTag: e204e3b2-bd9a-b19a-13ac-ad59d18bbb80
+		summarizeBy: none
+		sourceColumn: sample_condition_1to5
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_backlog_aud
+		dataType: double
+		formatString: #,0
+		lineageTag: 7fac04b3-2f01-6471-7c84-23f63ff64134
+		summarizeBy: none
+		sourceColumn: sample_backlog_aud
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_electricity_kwh_yr
+		dataType: double
+		formatString: #,0
+		lineageTag: 7ff86ae3-2474-a5ca-abe5-824f6ced74cc
+		summarizeBy: none
+		sourceColumn: sample_electricity_kwh_yr
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_water_kl_yr
+		dataType: double
+		formatString: #,0
+		lineageTag: 3cdf71c6-0104-8a02-1990-619671488581
+		summarizeBy: none
+		sourceColumn: sample_water_kl_yr
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_teaching_spaces
+		dataType: int64
+		formatString: 0
+		lineageTag: 09c9296d-7f7c-f7c8-e11f-4ecd1ceadad6
+		summarizeBy: none
+		sourceColumn: sample_teaching_spaces
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_capacity_seats
+		dataType: int64
+		formatString: 0
+		lineageTag: 6bd482b1-9cd4-2f58-159b-ddb1cf4f826d
+		summarizeBy: none
+		sourceColumn: sample_capacity_seats
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_timetable_use_pct
+		dataType: double
+		formatString: 0
+		lineageTag: d75a4a50-482b-880c-7399-183251387993
+		summarizeBy: none
+		sourceColumn: sample_timetable_use_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_asbestos_register
+		dataType: string
+		lineageTag: 7fb00acd-2007-fdb2-b626-d2e9f2d8d7c6
+		summarizeBy: none
+		sourceColumn: sample_asbestos_register
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_esm_status
+		dataType: string
+		lineageTag: b7a800a4-74ab-cc3d-aa77-c1f4553d1a36
+		summarizeBy: none
+		sourceColumn: sample_esm_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition SampleMadeUp = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("sample/sample_facilities_MADE_UP.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 1),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"key", "data_status", "sample_condition", "sample_condition_1to5", "sample_backlog_aud", "sample_electricity_kwh_yr", "sample_water_kl_yr", "sample_teaching_spaces", "sample_capacity_seats", "sample_timetable_use_pct", "sample_asbestos_register", "sample_esm_status"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"key", type text}, {"data_status", type text}, {"sample_condition", type text}, {"sample_condition_1to5", Int64.Type}, {"sample_backlog_aud", type number}, {"sample_electricity_kwh_yr", type number}, {"sample_water_kl_yr", type number}, {"sample_teaching_spaces", Int64.Type}, {"sample_capacity_seats", Int64.Type}, {"sample_timetable_use_pct", type number}, {"sample_asbestos_register", type text}, {"sample_esm_status", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

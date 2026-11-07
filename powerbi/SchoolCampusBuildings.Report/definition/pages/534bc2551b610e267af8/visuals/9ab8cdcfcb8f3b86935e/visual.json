@@ -1,0 +1,158 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "9ab8cdcfcb8f3b86935e",
+  "position": {
+    "x": 1180,
+    "y": 130,
+    "z": 1,
+    "height": 880,
+    "width": 700,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "key"
+                }
+              },
+              "queryRef": "Buildings.key",
+              "nativeQueryRef": "key"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "sample_condition"
+                }
+              },
+              "queryRef": "SampleMadeUp.sample_condition",
+              "nativeQueryRef": "sample_condition"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "SAMPLE backlog AUD (made up)"
+                }
+              },
+              "queryRef": "SampleMadeUp.SAMPLE backlog AUD (made up)",
+              "nativeQueryRef": "SAMPLE backlog AUD (made up)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "SAMPLE kWh per m2 floor (made up)"
+                }
+              },
+              "queryRef": "SampleMadeUp.SAMPLE kWh per m2 floor (made up)",
+              "nativeQueryRef": "SAMPLE kWh per m2 floor (made up)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "sample_teaching_spaces"
+                }
+              },
+              "queryRef": "SampleMadeUp.sample_teaching_spaces",
+              "nativeQueryRef": "sample_teaching_spaces"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "sample_timetable_use_pct"
+                }
+              },
+              "queryRef": "SampleMadeUp.sample_timetable_use_pct",
+              "nativeQueryRef": "sample_timetable_use_pct"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "sample_asbestos_register"
+                }
+              },
+              "queryRef": "SampleMadeUp.sample_asbestos_register",
+              "nativeQueryRef": "sample_asbestos_register"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleMadeUp"
+                    }
+                  },
+                  "Property": "sample_esm_status"
+                }
+              },
+              "queryRef": "SampleMadeUp.sample_esm_status",
+              "nativeQueryRef": "sample_esm_status"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'SAMPLE (made up): the register, by building id'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

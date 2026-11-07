@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "2c591fbbadaf5f76a791",
+  "position": {
+    "x": 920,
+    "y": 120,
+    "z": 1,
+    "height": 160,
+    "width": 420,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Buildings"
+                    }
+                  },
+                  "Property": "Floor per student 2025"
+                }
+              },
+              "queryRef": "Buildings.Floor per student 2025",
+              "nativeQueryRef": "Floor per student 2025"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Floor per student (estimated)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

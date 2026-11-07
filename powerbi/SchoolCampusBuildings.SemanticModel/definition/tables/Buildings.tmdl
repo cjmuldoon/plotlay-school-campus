@@ -1,0 +1,242 @@
+table Buildings
+	lineageTag: 9fdd5aad-7ea5-28df-6738-692b788cee0a
+
+	measure 'Buildings count' = DISTINCTCOUNT ( Buildings[key] )
+		formatString: 0
+		displayFolder: Buildings
+		lineageTag: 3ef496a4-7017-ec71-52be-c34c27d8ae7a
+
+	/// From the council 2023 footprints, as drawn in Plotlay
+	measure 'Footprint m2' = SUM ( Buildings[footprint_m2] )
+		formatString: #,0
+		displayFolder: Buildings
+		lineageTag: c0b40305-1637-e7c0-8ae0-db21a49011c9
+
+	/// Estimated from the council heights: height / 4 m, 2 m off a pitched roof, capped by CLUE floors
+	measure 'Floor m2 estimated' = SUM ( Buildings[floor_m2_est] )
+		formatString: #,0
+		displayFolder: Buildings
+		lineageTag: 19de14cf-b67a-e852-3847-4628ba9dbe4c
+
+	/// Share of the campus floor area (estimated)
+	measure 'Floor share' = DIVIDE ( [Floor m2 estimated], CALCULATE ( [Floor m2 estimated], ALL ( Buildings ) ) )
+		formatString: 0.0%
+		displayFolder: Buildings
+		lineageTag: 9a4c27c7-7368-7f16-c1a3-afa6a4fc1d49
+
+	measure 'Floor over footprint' = DIVIDE ( [Floor m2 estimated], [Footprint m2] )
+		formatString: 0.00
+		displayFolder: Buildings
+		lineageTag: 9ff10be3-9ae4-2811-9259-40ac44f0d6f7
+
+	measure 'Tallest m' = MAX ( Buildings[height_m] )
+		formatString: 0.0
+		displayFolder: Buildings
+		lineageTag: aebfc587-a720-bd03-36da-e99d1f52b60f
+
+	/// The two council parcels, as one shape in Plotlay
+	measure 'Site m2' = SUM ( Site[area_m2] )
+		formatString: #,0
+		displayFolder: Site level
+		lineageTag: 8f6cb6f5-bc77-fa9b-ee57-01ba9a846a60
+
+	/// February FTE enrolments, the school as a whole
+	measure 'Students 2025' = CALCULATE ( SUM ( Enrolments[fte_students] ), Enrolments[year] = 2025 )
+		formatString: #,0
+		displayFolder: Site level
+		lineageTag: c72900f7-0419-25ec-2baa-d84bf9404275
+
+	/// Site level only: enrolments are never split across buildings
+	measure 'Ground per student 2025' = DIVIDE ( [Site m2], [Students 2025] )
+		formatString: 0.0
+		displayFolder: Site level
+		lineageTag: e96405eb-8ea0-86c1-dec1-d2c2c6545f80
+
+	/// Site level: all buildings over the school enrolment
+	measure 'Footprint per student 2025' = DIVIDE ( CALCULATE ( [Footprint m2], ALL ( Buildings ) ), [Students 2025] )
+		formatString: 0.0
+		displayFolder: Site level
+		lineageTag: 62684079-f460-3079-fd9b-91db15ffc7f2
+
+	/// Site level: all buildings over the school enrolment (floor estimated)
+	measure 'Floor per student 2025' = DIVIDE ( CALCULATE ( [Floor m2 estimated], ALL ( Buildings ) ), [Students 2025] )
+		formatString: 0.0
+		displayFolder: Site level
+		lineageTag: 46a593b7-a4ab-99fb-f0aa-dcd30a5958f6
+
+	/// Footprint on each council snapshot (2014 to 2023)
+	measure 'Footprint on snapshot m2' = SUM ( FootprintByYear[footprint_m2] )
+		formatString: #,0
+		displayFolder: Over time
+		lineageTag: c4524a5c-2dd8-f210-c170-2999c1384e7a
+
+	measure Students = SUM ( Enrolments[fte_students] )
+		formatString: #,0
+		displayFolder: Over time
+		lineageTag: be74589f-9d75-dc77-567d-d28a2ba0050d
+
+	column key
+		dataType: string
+		lineageTag: 1e555345-fe10-8565-7067-a048dc11695d
+		summarizeBy: none
+		sourceColumn: key
+
+		annotation SummarizationSetBy = Automatic
+
+	column structure_id
+		dataType: string
+		lineageTag: 2f3246a7-858b-fe9e-9922-2a3d3cd425c9
+		summarizeBy: none
+		sourceColumn: structure_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column footprint_m2
+		dataType: double
+		formatString: #,0
+		lineageTag: e51946b1-7cd4-a500-bec8-a9b3c46296b4
+		summarizeBy: none
+		sourceColumn: footprint_m2
+
+		annotation SummarizationSetBy = Automatic
+
+	column height_m
+		dataType: double
+		formatString: 0.0
+		lineageTag: 14a99c02-f680-4860-9d59-11906b4c8c62
+		summarizeBy: none
+		sourceColumn: height_m
+
+		annotation SummarizationSetBy = Automatic
+
+	column roof
+		dataType: string
+		lineageTag: 6ab62a95-dfb0-5d6c-0316-264503534c5e
+		summarizeBy: none
+		sourceColumn: roof
+
+		annotation SummarizationSetBy = Automatic
+
+	column footprint_parts
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d17bcd1-51da-fc30-d517-d6b6fee54ff0
+		summarizeBy: none
+		sourceColumn: footprint_parts
+
+		annotation SummarizationSetBy = Automatic
+
+	column first_mapped
+		dataType: int64
+		formatString: 0
+		lineageTag: c20b18a7-3de2-149c-a6fb-48b7835aa4ad
+		summarizeBy: none
+		sourceColumn: first_mapped
+
+		annotation SummarizationSetBy = Automatic
+
+	column era
+		dataType: string
+		lineageTag: fff4e4d5-e47c-973b-4346-0642d2ff76f2
+		summarizeBy: none
+		sourceColumn: era
+
+		annotation SummarizationSetBy = Automatic
+
+	column storeys_est
+		dataType: int64
+		formatString: 0
+		lineageTag: d81f2b34-2704-13d7-e1a9-fddd45f20502
+		summarizeBy: none
+		sourceColumn: storeys_est
+
+		annotation SummarizationSetBy = Automatic
+
+	column storeys_from
+		dataType: string
+		lineageTag: 519b648a-d7dd-d517-6bdb-67a923d69617
+		summarizeBy: none
+		sourceColumn: storeys_from
+
+		annotation SummarizationSetBy = Automatic
+
+	column floor_m2_est
+		dataType: double
+		formatString: #,0
+		lineageTag: 311eb2cc-1852-d327-cfdd-d6198362032c
+		summarizeBy: none
+		sourceColumn: floor_m2_est
+
+		annotation SummarizationSetBy = Automatic
+
+	column floor_share_pct
+		dataType: double
+		formatString: 0.0
+		lineageTag: 6db5e929-dd29-7d49-42bc-48d00389fcb7
+		summarizeBy: none
+		sourceColumn: floor_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column floor_to_footprint
+		dataType: double
+		formatString: 0.00
+		lineageTag: 96fcbcdf-33aa-ff22-5eff-99745d98ab2e
+		summarizeBy: none
+		sourceColumn: floor_to_footprint
+
+		annotation SummarizationSetBy = Automatic
+
+	column clue_building_name
+		dataType: string
+		lineageTag: 16eb6066-21e8-d0e2-c5a4-04f8b9ce6f25
+		summarizeBy: none
+		sourceColumn: clue_building_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column clue_construction_year
+		dataType: string
+		lineageTag: 4bbfbc5e-6020-edd7-9934-65c28919c69e
+		summarizeBy: none
+		sourceColumn: clue_construction_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column clue_floors
+		dataType: string
+		lineageTag: 9de810d1-4458-b60a-8336-9d400ac09b0d
+		summarizeBy: none
+		sourceColumn: clue_floors
+
+		annotation SummarizationSetBy = Automatic
+
+	column clue_accessibility_rating
+		dataType: string
+		lineageTag: 18599ccf-6680-edbd-b229-d2656893bec9
+		summarizeBy: none
+		sourceColumn: clue_accessibility_rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column clue_accessibility_type
+		dataType: string
+		lineageTag: 0a7d687b-d41c-9a18-d23e-9b1761c891c6
+		summarizeBy: none
+		sourceColumn: clue_accessibility_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Buildings = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(GetFile("buildings/buildings.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Skipped = Table.Skip(Source, 0),
+				    Promoted = Table.PromoteHeaders(Skipped, [PromoteAllScalars = true]),
+				    Kept = Table.SelectColumns(Promoted, {"key", "structure_id", "footprint_m2", "height_m", "roof", "footprint_parts", "first_mapped", "era", "storeys_est", "storeys_from", "floor_m2_est", "floor_share_pct", "floor_to_footprint", "clue_building_name", "clue_construction_year", "clue_floors", "clue_accessibility_rating", "clue_accessibility_type"}),
+				    Typed = Table.TransformColumnTypes(Kept, {{"key", type text}, {"structure_id", type text}, {"footprint_m2", type number}, {"height_m", type number}, {"roof", type text}, {"footprint_parts", Int64.Type}, {"first_mapped", Int64.Type}, {"era", type text}, {"storeys_est", Int64.Type}, {"storeys_from", type text}, {"floor_m2_est", type number}, {"floor_share_pct", type number}, {"floor_to_footprint", type number}, {"clue_building_name", type text}, {"clue_construction_year", type text}, {"clue_floors", type text}, {"clue_accessibility_rating", type text}, {"clue_accessibility_type", type text}}, "en-AU")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

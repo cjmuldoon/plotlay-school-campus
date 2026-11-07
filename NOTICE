@@ -1,0 +1,57 @@
+One school campus, building by building: University High School, Parkville.
+Copyright 2026 Craig Muldoon. Made with Plotlay (https://www.getplotlay.com).
+
+This repository contains code, data we made, made-up sample data, and data from the sources below.
+
+CODE
+  The notebook, the Power BI project (its Power Query, DAX and report files) and any scripts are licensed under the
+  MIT licence (LICENSE).
+
+DATA WE MADE
+  The shapes in data/geometry/, the tables in data/buildings/ and data/site/ (including the storey and floor area
+  estimates and the site roll-up) are licensed under Creative Commons Attribution 4.0 International (LICENSE-DATA).
+  Please credit: "Shapes and tables: Plotlay (getplotlay.com), from City of Melbourne and Victorian Department of
+  Education open data". They are made from the sources below, whose credits also apply.
+
+SAMPLE DATA (MADE UP)
+  data/sample/ is invented: figures drawn at random from a fixed seed (data/sample/README.md says how). It is not about
+  University High School or any real building, and makes no claim about any building's condition, costs, energy, water,
+  rooms, asbestos or safety measures. Its outlines are copies of the council footprints. Licensed as data we made.
+
+UPSTREAM SOURCES
+
+  City of Melbourne Open Data, data.melbourne.vic.gov.au, licensed under Creative Commons Attribution 4.0
+  (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/).
+    - 2023 Building Footprints, 2020 Building Footprints, 2018 Building Footprints
+      https://data.melbourne.vic.gov.au/explore/dataset/2023-building-footprints/ (and 2020-, 2018-building-footprints)
+    - Building outlines 2015, Building outlines 2014
+      https://data.melbourne.vic.gov.au/explore/dataset/building-outlines-2015/ (and building-outlines-20140)
+    - Property boundaries
+      https://data.melbourne.vic.gov.au/explore/dataset/property-boundaries/
+    - Building information (Census of Land Use and Employment, census years 2002 to 2024)
+      https://data.melbourne.vic.gov.au/explore/dataset/buildings-with-name-age-size-accessibility-and-bicycle-facilities/
+    - Road corridors (visuals only)
+      https://data.melbourne.vic.gov.au/explore/dataset/road-corridors/
+    Changes: the footprints on the two parcels of University High School and the Elizabeth Blackburn School of
+    Sciences picked in Plotlay, parts joined by structure_id; each building's footprint looked up on the older layers;
+    the CLUE records of the two properties kept; storeys and floor area estimated from the footprints' heights.
+
+  Victorian Department of Education, All Schools FTE Enrolments, February 2007 to 2026, licensed under Creative
+  Commons Attribution 4.0 (CC BY 4.0), via DataVic (discover.data.vic.gov.au).
+    Changes: University High School (school number 8405) only. 2007 to 2014 and 2021 to 2022 read from the DataVic
+    datastore; 2015 to 2020 and 2023 to 2024 from the Internet Archive's copies of the department's CSV files; 2025 and
+    2026 from content.vic.gov.au.
+
+  Base map in the app screenshots
+    © Commonwealth of Australia (Geoscience Australia), National Base Map, licensed under CC BY 4.0. No tiles are
+    included in this repository. The other visuals draw their base from the council layers above.
+
+NOT INCLUDED
+  Nothing in this repository is derived from OpenStreetMap. No aerial imagery was used or traced. No personal data is
+  included. The City of Melbourne's, the Department's and the school's logos are not used, and nothing here implies
+  endorsement by any of them.
+
+THIRD-PARTY SOFTWARE
+  The notebook uses pandas, GeoPandas, Shapely, pyproj and Matplotlib (installed from requirements.txt, each under its
+  own licence). Fonts in the visuals: IBM Plex Sans, IBM Plex Sans Condensed and IBM Plex Mono, SIL Open Font
+  License 1.1.
