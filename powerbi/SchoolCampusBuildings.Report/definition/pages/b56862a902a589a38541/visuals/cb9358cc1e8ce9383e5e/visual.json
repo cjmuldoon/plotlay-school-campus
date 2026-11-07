@@ -23,11 +23,11 @@
                       "Entity": "Buildings"
                     }
                   },
-                  "Property": "Ground per student 2025"
+                  "Property": "Grounds per student 2025"
                 }
               },
-              "queryRef": "Buildings.Ground per student 2025",
-              "nativeQueryRef": "Ground per student 2025"
+              "queryRef": "Buildings.Grounds per student 2025",
+              "nativeQueryRef": "Grounds per student 2025"
             }
           ]
         }
@@ -48,7 +48,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Ground per student (the site, one shape)'"
+                  "Value": "'Grounds per student (the site, one shape)'"
                 }
               }
             }

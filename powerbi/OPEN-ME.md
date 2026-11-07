@@ -5,31 +5,31 @@
 ## What you need
 
 - Power BI Desktop for Windows, a recent version (2026). If Desktop is older than about mid 2025, turn on **File, Options and settings, Options, Preview features, Power BI Project (.pbip) save option** and **Store reports using enhanced metadata format (PBIR)**, then restart Desktop.
-- The repo folder on the Windows machine. In Parallels the Mac home folder is shared, usually as `\\Mac\Home`.
+- The repo folder on the Windows machine, wherever you cloned or unzipped it.
 
 ## Open it
 
-1. In Windows, open File Explorer and go to the repo's `powerbi` folder.
+1. In Windows, open File Explorer and go to the `powerbi` folder, wherever you cloned or unzipped the repo.
 2. Double-click `SchoolCampusBuildings.pbip`, or in Desktop: **File, Open report, Browse reports**, file type *Power BI project files (\*.pbip)*.
 3. The visuals are empty the first time. Select **Refresh** on the Home ribbon.
    - By default the data is read from the repo's public copy on GitHub (`DataFolder` is `https://raw.githubusercontent.com/cjmuldoon/plotlay-school-campus/main/data/`). If Desktop asks how to connect, choose **Anonymous** and **Connect**.
    - To read the files on disk instead: **Home, Transform data, Edit parameters**, set `DataFolder` to the full path of the repo's `data` folder **ending with a backslash**, then **OK** and **Apply changes**.
    - If Desktop warns about privacy levels, choose **Ignore privacy levels** for this file (all sources are public open data) or set them to Public.
-4. After the refresh, the **Site against buildings** page reads 12.2 m² of ground per student, 4.8 m² of footprint and 11.9 m² of floor (estimated) for 2025, the README's figures. If it does, everything is joined correctly.
+4. After the refresh, the **Site against buildings** page reads 12.2 m² of grounds per student, 4.8 m² of footprint and 11.9 m² of floor space (estimated) for 2025, the README's figures. If it does, everything is joined correctly.
 
 ## Site level and building level
 
 `Buildings` has one row per building (the key the shapes carry). `Site` is one row: the two council parcels as one shape, with the buildings rolled up in Plotlay. `Enrolments` is the school's, one row per year. The per-student measures divide site totals by the school's enrolment; there is no per-building student figure, because enrolments are never split across buildings.
 
-## The sample page is made up
+## The sample data page
 
-`SampleMadeUp` reads `data/sample/sample_facilities_MADE_UP.csv` (its first line, a comment, is skipped). Every figure in it is invented, and its page and measures say so. No other page or measure reads it.
+`Sample` reads `data/sample/sample_facilities.csv` (its first line, a comment, is skipped). It is sample data: every figure in it is invented for illustration, and its page and measures say so. No other page or measure reads it.
 
 ## The map setting Power BI asks for by hand
 
 Power BI keeps a custom map file inside the report only once you have chosen it, so do this once and save:
 
-- **Shape Map** (Building by building, and SAMPLE pages). Select the map, then **Format visual, Visual, Map settings**: Map type **Custom map**, **Add map type**, choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B13 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **Options, Preview features, Shape map visual**.
+- **Shape Map** (Building by building, and Sample data pages). Select the map, then **Format visual, Visual, Map settings**: Map type **Custom map**, **Add map type**, choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B13 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **Options, Preview features, Shape map visual**.
 - Optional, **Azure Maps**: add a reference layer from `..\data\geometry\campus_buildings.geojson`, join property `key`, map style **Grayscale (light)** or **Blank**. Do not publish satellite basemap screenshots.
 
 If the Shape Map comes up empty after opening, drag the fields back: Location `Buildings[key]`, Legend `Buildings[era]`.
@@ -52,11 +52,11 @@ Capture at 1920 × 1080 (Windows display scaling 100%), Plotlay theme on. Snippi
 |---|---|---|---|
 | 1 | Building by building | The Shape Map coloured by era, the cards and the table | still |
 | 2 | Pick a building | Click B01 in the table: the map and cards follow, its floor share 75.9% | 3 s clip |
-| 3 | Site against buildings | The four cards (ground, footprint, floor per student; students) and the bar chart | still |
+| 3 | Site against buildings | The four cards (grounds, footprint, floor space per student; students) and the bar chart | still |
 | 4 | Over time | Hover 2020 and 2023 on the footprint chart: the six single-storey buildings arrive | 4 s clip |
-| 5 | SAMPLE DATA (made up) | The bannered page: condition by building id and the register table. Keep the red title in shot | still |
+| 5 | Sample data | The sample data page: condition by building id and the register table. Keep its footer in shot | still |
 | 6 | Model view | The five tables and the two relationships to Buildings | still |
-| 7 | Power Query | **Transform data**: the `DataFolder` parameter and the SampleMadeUp steps (the comment line skipped) | still |
+| 7 | Power Query | **Transform data**: the `DataFolder` parameter and the Sample steps (the comment line skipped) | still |
 
 Keep the footer with the attribution visible in every shot.
 
@@ -65,4 +65,4 @@ Keep the footer with the attribution visible in every shot.
 - `SchoolCampusBuildings.pbip`: open this.
 - `SchoolCampusBuildings.SemanticModel/definition/`: `tables/*.tmdl` (columns, measures, Power Query), `relationships.tmdl`, `expressions.tmdl` (the `DataFolder` parameter and a small `GetFile` function).
 - `SchoolCampusBuildings.Report/definition/`: one folder per page and visual (PBIR), `report.json` (the Plotlay theme registered).
-- Pages: Building by building, Site against buildings, Over time, SAMPLE DATA (made up).
+- Pages: Building by building, Site against buildings, Over time, Sample data.

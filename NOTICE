@@ -1,7 +1,7 @@
 One school campus, building by building: University High School, Parkville.
 Copyright 2026 Craig Muldoon. Made with Plotlay (https://www.getplotlay.com).
 
-This repository contains code, data we made, made-up sample data, and data from the sources below.
+This repository contains code, data we made, sample data (invented), and data from the sources below.
 
 CODE
   The notebook, the Power BI project (its Power Query, DAX and report files) and any scripts are licensed under the
@@ -13,7 +13,7 @@ DATA WE MADE
   Please credit: "Shapes and tables: Plotlay (getplotlay.com), from City of Melbourne and Victorian Department of
   Education open data". They are made from the sources below, whose credits also apply.
 
-SAMPLE DATA (MADE UP)
+SAMPLE DATA
   data/sample/ is invented: figures drawn at random from a fixed seed (data/sample/README.md says how). It is not about
   University High School or any real building, and makes no claim about any building's condition, costs, energy, water,
   rooms, asbestos or safety measures. Its outlines are copies of the council footprints. Licensed as data we made.

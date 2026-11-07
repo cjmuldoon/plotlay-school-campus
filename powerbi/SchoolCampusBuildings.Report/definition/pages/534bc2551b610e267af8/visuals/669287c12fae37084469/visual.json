@@ -19,10 +19,10 @@
               {
                 "textRuns": [
                   {
-                    "value": "SAMPLE DATA (MADE UP): WHERE YOUR OWN REGISTER GOES",
+                    "value": "WHERE YOUR OWN REGISTER GOES",
                     "textStyle": {
                       "fontSize": "24pt",
-                      "color": "#cf3b26",
+                      "color": "#163c6e",
                       "fontWeight": "bold"
                     }
                   }
@@ -31,11 +31,10 @@
               {
                 "textRuns": [
                   {
-                    "value": "Invented condition, backlog, meters, rooms and compliance by building id, to show the join. Not about any real school or building.",
+                    "value": "Sample data: condition, backlog, meters, rooms and compliance by building id, invented to show the join. Not about any real school or building.",
                     "textStyle": {
                       "fontSize": "11pt",
-                      "color": "#cf3b26",
-                      "fontWeight": "bold"
+                      "color": "#5b6573"
                     }
                   }
                 ]

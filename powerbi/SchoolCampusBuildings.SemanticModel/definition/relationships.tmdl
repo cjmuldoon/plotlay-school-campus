@@ -2,6 +2,6 @@ relationship 889b6169-2e2e-61f0-4e96-704587dade38
 	fromColumn: FootprintByYear.key
 	toColumn: Buildings.key
 
-relationship 2b0e461a-1330-408b-68a9-fbf07f4b191c
-	fromColumn: SampleMadeUp.key
+relationship e4f39e67-ab9b-392f-e624-25f998bf3308
+	fromColumn: Sample.key
 	toColumn: Buildings.key

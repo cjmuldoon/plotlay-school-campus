@@ -47,10 +47,10 @@ table Buildings
 		lineageTag: c72900f7-0419-25ec-2baa-d84bf9404275
 
 	/// Site level only: enrolments are never split across buildings
-	measure 'Ground per student 2025' = DIVIDE ( [Site m2], [Students 2025] )
+	measure 'Grounds per student 2025' = DIVIDE ( [Site m2], [Students 2025] )
 		formatString: 0.0
 		displayFolder: Site level
-		lineageTag: e96405eb-8ea0-86c1-dec1-d2c2c6545f80
+		lineageTag: ddb26317-f83b-f05c-4368-780c99707bc2
 
 	/// Site level: all buildings over the school enrolment
 	measure 'Footprint per student 2025' = DIVIDE ( CALCULATE ( [Footprint m2], ALL ( Buildings ) ), [Students 2025] )

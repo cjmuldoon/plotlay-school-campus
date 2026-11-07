@@ -48,7 +48,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Floor per student (estimated)'"
+                  "Value": "'Floor space per student (estimated)'"
                 }
               }
             }

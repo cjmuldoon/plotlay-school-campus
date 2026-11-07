@@ -1,16 +1,16 @@
-# Sample data (made up)
+# Sample data
 
-`sample_facilities_MADE_UP.csv` is **invented**. It is not about University High School or any real building. It
-shows where a facilities team's own register goes once the buildings are mapped: condition, maintenance backlog,
+`sample_facilities.csv` is sample data: the figures are invented for illustration and are not about University High
+School or any real building. It shows where a facilities team's own register goes once the buildings are mapped: condition, maintenance backlog,
 electricity and water by building meter, teaching spaces, capacity against timetable use, the asbestos register and
 essential safety measures.
 
 How it was made, so anyone can make it again: Python's `random.Random(20261107)`, the buildings in key order, each
 column drawn in a plausible range and scaled by the building's estimated floor area (`floor_m2_est` in
-`data/buildings/buildings.csv`). Every column starts with `sample_`, every row says `SAMPLE DATA, MADE UP`, and the
+`data/buildings/buildings.csv`). Every column starts with `sample_`, every row says `Sample data, invented`, and the
 file opens with a comment line (read it with `pandas.read_csv(..., comment='#')`, or skip the first row in Power Query).
 
-| Column | Made up as |
+| Column | Drawn as |
 |---|---|
 | sample_condition_1to5, sample_condition | 2 plus a draw of 0 to 3; one lower for a building on the 2014 outlines, one higher for one first shown after 2014 |
 | sample_backlog_aud | footprint m² x a draw of 40 to 140 x (6 minus condition), to the nearest 1,000 |
@@ -23,4 +23,4 @@ file opens with a comment line (read it with `pandas.read_csv(..., comment='#')`
 | sample_esm_status | All items current, or 1 item open one time in four |
 
 The sample is never mixed into the real figures: no chart, median or total in this repository uses it except the
-sample's own section, which is labelled Sample data (made up).
+sample's own section, which is labelled Sample data.

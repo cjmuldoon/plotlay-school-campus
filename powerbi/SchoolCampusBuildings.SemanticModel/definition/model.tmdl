@@ -6,12 +6,12 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["DataFolder", "GetFile", "Buildings", "FootprintByYear", "Site", "Enrolments", "SampleMadeUp"]
+annotation PBI_QueryOrder = ["DataFolder", "GetFile", "Buildings", "FootprintByYear", "Site", "Enrolments", "Sample"]
 
 ref table Buildings
 ref table FootprintByYear
 ref table Site
 ref table Enrolments
-ref table SampleMadeUp
+ref table Sample
 
 ref cultureInfo en-AU

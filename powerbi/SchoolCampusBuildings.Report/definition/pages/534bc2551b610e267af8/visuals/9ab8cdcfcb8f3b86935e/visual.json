@@ -34,13 +34,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
                   "Property": "sample_condition"
                 }
               },
-              "queryRef": "SampleMadeUp.sample_condition",
+              "queryRef": "Sample.sample_condition",
               "nativeQueryRef": "sample_condition"
             },
             {
@@ -48,41 +48,41 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
-                  "Property": "SAMPLE backlog AUD (made up)"
+                  "Property": "Sample backlog AUD"
                 }
               },
-              "queryRef": "SampleMadeUp.SAMPLE backlog AUD (made up)",
-              "nativeQueryRef": "SAMPLE backlog AUD (made up)"
+              "queryRef": "Sample.Sample backlog AUD",
+              "nativeQueryRef": "Sample backlog AUD"
             },
             {
               "field": {
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
-                  "Property": "SAMPLE kWh per m2 floor (made up)"
+                  "Property": "Sample kWh per m2 floor"
                 }
               },
-              "queryRef": "SampleMadeUp.SAMPLE kWh per m2 floor (made up)",
-              "nativeQueryRef": "SAMPLE kWh per m2 floor (made up)"
+              "queryRef": "Sample.Sample kWh per m2 floor",
+              "nativeQueryRef": "Sample kWh per m2 floor"
             },
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
                   "Property": "sample_teaching_spaces"
                 }
               },
-              "queryRef": "SampleMadeUp.sample_teaching_spaces",
+              "queryRef": "Sample.sample_teaching_spaces",
               "nativeQueryRef": "sample_teaching_spaces"
             },
             {
@@ -90,13 +90,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
                   "Property": "sample_timetable_use_pct"
                 }
               },
-              "queryRef": "SampleMadeUp.sample_timetable_use_pct",
+              "queryRef": "Sample.sample_timetable_use_pct",
               "nativeQueryRef": "sample_timetable_use_pct"
             },
             {
@@ -104,13 +104,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
                   "Property": "sample_asbestos_register"
                 }
               },
-              "queryRef": "SampleMadeUp.sample_asbestos_register",
+              "queryRef": "Sample.sample_asbestos_register",
               "nativeQueryRef": "sample_asbestos_register"
             },
             {
@@ -118,13 +118,13 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "SampleMadeUp"
+                      "Entity": "Sample"
                     }
                   },
                   "Property": "sample_esm_status"
                 }
               },
-              "queryRef": "SampleMadeUp.sample_esm_status",
+              "queryRef": "Sample.sample_esm_status",
               "nativeQueryRef": "sample_esm_status"
             }
           ]
@@ -146,7 +146,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'SAMPLE (made up): the register, by building id'"
+                  "Value": "'Sample data: the register, by building id'"
                 }
               }
             }

@@ -19,7 +19,7 @@
               {
                 "textRuns": [
                   {
-                    "value": "SAMPLE DATA (MADE UP): invented figures drawn at random from a fixed seed (data/sample/README.md). Not about University High School or any real building. Outlines: City of Melbourne Open Data, CC BY 4.0.",
+                    "value": "Sample data: figures invented for illustration, drawn at random from a fixed seed (data/sample/README.md). Not about University High School or any real building. Outlines: City of Melbourne Open Data, CC BY 4.0.",
                     "textStyle": {
                       "fontSize": "9pt",
                       "color": "#5b6573"
