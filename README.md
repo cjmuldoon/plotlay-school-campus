@@ -41,11 +41,18 @@ The other school maps draw one shape per school and divide its grounds (the land
 - **Students** are the school's February FTE enrolments (Victorian Department of Education), not a headcount. The science school's students are in the figure.
 - **Areas are approximate**: accuracy depends on the council's footprints and property boundaries the outlines came from. Every building's area matches the council footprint to within 0.148%.
 
-## Sample data
+## Sample data: facilities on the same buildings
 
-![Sample data: condition by building id](visuals/sample_condition_16x9.png)
+![Sample data: the buildings coloured by assets at high or extreme risk, every asset a dot by its rating](visuals/sample_risk_map_16x9.png)
 
-`data/sample/sample_facilities.csv` is sample data: the figures are invented for illustration and are not about University High School or any real building. It shows the next step for a facilities team once the buildings are mapped: link their own register (condition, maintenance backlog, energy and water by building meter, teaching spaces, capacity against timetable use, the asbestos register, essential safety measures) to the building keys. It was drawn at random from a fixed seed; [`data/sample/README.md`](data/sample/README.md) says how, so anyone can make it again. No real figure, chart or total in this repository uses it.
+`data/sample/` is sample data: the figures are not about University High School or any real building. It shows what a facilities team links once each building is a keyed shape, in the shape a CAFM or CMMS exports it: an asset register of 226 assets as points inside the buildings (Plotlay's facilities asset types and tags), condition and remaining life, risk as likelihood times consequence, twelve months of work orders, planned maintenance compliance, essential safety measures, the asbestos register, a BMS trend log of the building meters, space use and a capital works backlog. In the sample, 40 assets rate high or extreme, 36 work orders are open (17 overdue), 86.9% of planned maintenance was done on time, and the capital works backlog is A$3.9M.
+
+Everything was drawn from one fixed seed; [`data/sample/README.md`](data/sample/README.md) is the data dictionary and says how each column was made. `data/sample/handover/` is the building handover pack Plotlay makes from it (COBie, IFC, Project Haystack, Brick), with the buildings taken from the sample buildings layer and no rooms drawn. The notebook reads the sample only in its last section; the Power BI project has three sample pages (risk, work orders, compliance), each tagged Sample data. No real figure, chart or total uses it.
+
+| | |
+|---|---|
+| ![Risk matrix](visuals/chart_sample_risk_matrix_16x9.png) | ![Work order backlog](visuals/chart_sample_work_orders_16x9.png) |
+| ![Planned maintenance and essential safety measures](visuals/chart_sample_compliance_16x9.png) | ![BMS heat maps of the building meters](visuals/chart_sample_energy_heatmap_16x9.png) |
 
 ## How it was made with Plotlay
 
@@ -56,7 +63,7 @@ The other school maps draw one shape per school and divide its grounds (the land
 5. **Colour** by era, by estimated storeys, and by floor area **divided by** footprint.
 6. **3D at the real heights**: each building at its council height in metres, in floor plates from its storeys.
 7. **Roll up** the buildings to the site: how many, their footprint, their floor area, the earliest first mapped. Formulas then give grounds and floor space per student at site level.
-8. **Sample data** on copies of the outlines in a layer of its own, keyed by building only.
+8. **Sample data** on copies of the outlines, in layers of their own: the register's assets keyed by tag and rolled up into the buildings and the site, work orders month by month, the meters' trend log imported onto the buildings by key, and the handover pack from the buildings layer.
 9. **Export** GeoJSON, TopoJSON for the Power BI Shape Map, CSV with WKT, the linked data and a Python starter. Nothing in this repository comes from OpenStreetMap or from aerial imagery.
 
 ## What's here
@@ -66,10 +73,10 @@ The other school maps draw one shape per school and divide its grounds (the land
 | [`data/geometry/`](data/geometry) | The buildings (key B01 to B13) and the site (key UHS) from Plotlay: GeoJSON, TopoJSON, CSV with WKT |
 | [`data/buildings/`](data/buildings) | `buildings.csv` (one row per building: footprint, height, roof, era, storeys and floor area estimated, the CLUE record where there is one), `footprint_by_year.csv` (each building on each council snapshot) |
 | [`data/site/`](data/site) | `enrolments.csv` (2007 to 2026), `clue_records.csv` (the two CLUE records, every census year 2002 to 2024), `site_rollup.csv` (the site's roll-up from Plotlay) |
-| [`data/sample/`](data/sample) | **Sample data**: invented facilities figures by building id, how they were made, the outlines they sit on |
+| [`data/sample/`](data/sample) | **Sample data**: eleven facilities tables keyed to the buildings and assets, the data dictionary, the outlines they sit on, and the handover pack made from them |
 | [`python/`](python) | `campus_buildings.ipynb`, executed: every number above worked out from `data/` |
 | [`powerbi/`](powerbi) | `SchoolCampusBuildings.pbip`: a Power BI Project (open [`OPEN-ME.md`](powerbi/OPEN-ME.md) first) |
-| [`visuals/`](visuals) | The hero map, the 3D view, the charts and the sample map, 16:9 and 1:1 |
+| [`visuals/`](visuals) | The hero map, the 3D view, the charts, and the sample maps and charts (each tagged Sample data), 16:9 and 1:1 |
 
 ## Sources and licence
 

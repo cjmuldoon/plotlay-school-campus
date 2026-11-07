@@ -1,0 +1,12 @@
+acm_id,building,level,location,material,friable,sampled,condition,risk,labelled,last_inspected,review_status,action,data_status
+ACM-001,B01,Level 1,External,Vinyl floor tiles and mastic,No,Presumed,Poor,Medium,No,2021-03-13,Review due,Encapsulate,Sample data
+ACM-002,B01,Ground,External,Pipe lagging (plant room),Yes,Presumed,Good,Medium,Yes,2021-07-21,Review due,Manage in place,Sample data
+ACM-003,B01,Level 2,Store,Fibre cement sheet eaves lining,No,Presumed,Fair,Low,Yes,2021-11-22,Review due,Manage in place,Sample data
+ACM-004,B01,Ground,Store,Bituminous roof membrane,No,"Sampled, positive",Good,Low,No,2026-01-23,Current,Manage in place,Sample data
+ACM-005,B01,Level 2,Classroom,Fibre cement wall sheeting,No,"Sampled, positive",Fair,Low,Yes,2026-08-17,Current,Manage in place,Sample data
+ACM-006,B01,Level 2,External,Window putty,No,Presumed,Fair,Low,Yes,2021-04-07,Review due,Manage in place,Sample data
+ACM-007,B01,Level 1,Roof space,Fire door core,No,"Sampled, positive",Good,Low,Yes,2026-09-22,Current,Manage in place,Sample data
+ACM-008,B02,Ground,Corridor,Electrical switchboard backing,No,"Sampled, positive",Fair,Low,Yes,2021-02-14,Review due,Manage in place,Sample data
+ACM-009,B02,Level 1,Classroom,Bituminous roof membrane,No,Presumed,Fair,Low,Yes,2026-01-13,Current,Manage in place,Sample data
+ACM-010,B02,Level 1,Corridor,Fire door core,No,"Sampled, positive",Good,Low,Yes,2026-07-17,Current,Manage in place,Sample data
+ACM-011,B10,Ground,Store,Vinyl floor tiles and mastic,No,"Sampled, positive",Fair,Low,Yes,2026-04-11,Current,Manage in place,Sample data

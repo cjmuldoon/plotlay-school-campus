@@ -1,0 +1,17 @@
+building,space_type,spaces,seats,periods_available,periods_timetabled,frequency_pct,occupancy_pct,utilisation_pct,data_status
+B01,General classroom,38,950,950,741,78.0,69.8,54.4,Sample data
+B01,Art and design studio,4,96,100,39,39.0,68.2,26.6,Sample data
+B01,Music room,3,60,75,35,46.7,89.8,41.9,Sample data
+B01,Library,1,60,25,12,48.0,36.1,17.3,Sample data
+B01,Computer lab,3,75,75,41,54.7,78.9,43.1,Sample data
+B02,General classroom,6,150,150,100,66.7,68.8,45.9,Sample data
+B02,Food technology,2,44,50,24,48.0,80.9,38.8,Sample data
+B03,Science lab,8,192,200,167,83.5,68.5,57.2,Sample data
+B03,General classroom,4,100,100,87,87.0,78.6,68.4,Sample data
+B03,Senior study,2,80,50,38,76.0,72.7,55.3,Sample data
+B04,General classroom,2,50,50,44,88.0,83.0,73.0,Sample data
+B05,General classroom,2,50,50,44,88.0,79.3,69.8,Sample data
+B06,General classroom,2,50,50,45,90.0,89.8,80.8,Sample data
+B07,General classroom,2,50,50,48,96.0,85.4,82.0,Sample data
+B08,General classroom,2,50,50,43,86.0,82.1,70.6,Sample data
+B09,General classroom,2,50,50,45,90.0,68.2,61.4,Sample data

@@ -1,0 +1,14 @@
+key,fabric_condition_1to5,fabric_condition,assets,assets_past_life,risk_max,risk_high_or_extreme,wo_open,wo_overdue,wo_reactive_12m,pm_compliance_pct,esm_overdue,esm_measures,asbestos_items,backlog_aud,kwh_4wk,kwh_per_m2_4wk,after_hours_share_pct,data_status
+B01,3,Fair,109,30,20,26,16,7,193,90.1,1,11,7,3150000,139599,7.78,33.8,Sample data
+B02,3,Fair,26,10,20,6,5,2,45,85.7,1,6,3,571000,38331,19.56,61.9,Sample data
+B03,4,Good,50,9,20,7,9,5,47,90.2,2,11,0,53000,16326,6.84,36.9,Sample data
+B04,5,Very good,6,0,3,0,0,0,5,70.0,0,3,0,26000,1578,7.7,40.1,Sample data
+B05,5,Very good,6,0,6,0,1,0,5,80.0,1,3,0,21000,1408,6.94,40.3,Sample data
+B06,4,Good,6,0,6,0,2,1,7,55.6,1,3,0,19000,1190,5.98,38.2,Sample data
+B07,5,Very good,6,0,3,0,0,0,8,80.0,0,3,0,29000,1482,7.45,39.0,Sample data
+B08,4,Good,6,0,6,0,1,1,11,60.0,1,3,0,27000,1468,7.41,39.4,Sample data
+B09,5,Very good,6,0,3,0,0,0,8,70.0,0,3,0,26000,1700,8.72,35.6,Sample data
+B10,4,Good,2,0,6,0,1,1,3,66.7,0,2,1,0,,,,Sample data
+B11,4,Good,1,0,6,0,0,0,0,100.0,0,2,0,0,,,,Sample data
+B12,4,Good,0,0,,0,1,0,3,,0,0,0,0,,,,Sample data
+B13,5,Very good,0,0,,0,0,0,2,,0,0,0,0,,,,Sample data

@@ -1,0 +1,8078 @@
+{
+ "_kind": "grid",
+ "meta": {
+  "ver": "3.0",
+  "plotlayProject": "5a3e0000-0000-4000-8000-000000000001",
+  "dis": "Sample campus, building by building (sample data)"
+ },
+ "cols": [
+  {
+   "name": "id"
+  },
+  {
+   "name": "dis"
+  },
+  {
+   "name": "site"
+  },
+  {
+   "name": "area"
+  },
+  {
+   "name": "plotlayId"
+  },
+  {
+   "name": "plotlayGuid"
+  },
+  {
+   "name": "plotlayProject"
+  },
+  {
+   "name": "space"
+  },
+  {
+   "name": "floor"
+  },
+  {
+   "name": "siteRef"
+  },
+  {
+   "name": "plotlayLevel"
+  },
+  {
+   "name": "plotlayElevation"
+  },
+  {
+   "name": "plotlayOrdinal"
+  },
+  {
+   "name": "equip"
+  },
+  {
+   "name": "elec"
+  },
+  {
+   "name": "panel"
+  },
+  {
+   "name": "spaceRef"
+  },
+  {
+   "name": "floorRef"
+  },
+  {
+   "name": "plotlayTag"
+  },
+  {
+   "name": "plotlayType"
+  },
+  {
+   "name": "plotlaySystem"
+  },
+  {
+   "name": "meter"
+  },
+  {
+   "name": "water"
+  },
+  {
+   "name": "luminaire"
+  },
+  {
+   "name": "ahu"
+  },
+  {
+   "name": "boiler"
+  },
+  {
+   "name": "hvac"
+  },
+  {
+   "name": "fan"
+  },
+  {
+   "name": "valve"
+  },
+  {
+   "name": "elevator"
+  },
+  {
+   "name": "chiller"
+  }
+ ],
+ "rows": [
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "dis": "B01",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 6433.62,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B01",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000230",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "dis": "B02",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 883.2,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B02",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000231",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "dis": "B03",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 835.79,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B03",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000232",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "dis": "B04",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 204.63,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B04",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000233",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "dis": "B05",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 202,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B05",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000234",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "dis": "B06",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 198.49,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B06",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000235",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "dis": "B07",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 197.84,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B07",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000236",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "dis": "B08",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 197.47,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B08",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000237",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "dis": "B09",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 194.86,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B09",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000238",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000239",
+    "dis": "B10"
+   },
+   "dis": "B10",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 71.85,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B10",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000239",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000240",
+    "dis": "B11"
+   },
+   "dis": "B11",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 38.21,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B11",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000240",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000241",
+    "dis": "B12"
+   },
+   "dis": "B12",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 13.5,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B12",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000241",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000242",
+    "dis": "B13"
+   },
+   "dis": "B13",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 12.7,
+    "unit": "m²"
+   },
+   "plotlayId": "key:B13",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000242",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000243",
+    "dis": "Grounds"
+   },
+   "dis": "Grounds",
+   "site": {
+    "_kind": "marker"
+   },
+   "area": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m²"
+   },
+   "plotlayId": "grounds",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000243",
+   "plotlayProject": "5a3e0000-0000-4000-8000-000000000001"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "B01 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000003",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "B02 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "B03 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "B04 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "B05 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "75139421-2bff-4fbd-977d-b2032e003e19",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "B06 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "B07 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "B08 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "B09 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "be6554d4-6c34-47fd-90bf-f22dd184fc9b",
+    "dis": "B10 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000239",
+    "dis": "B10"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "be6554d4-6c34-47fd-90bf-f22dd184fc9b",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "70dc128a-f2ad-43c4-bbff-9632f7a28e6f",
+    "dis": "B11 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000240",
+    "dis": "B11"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "70dc128a-f2ad-43c4-bbff-9632f7a28e6f",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "425b8dee-ba8d-4863-a59f-1b12d7fe7452",
+    "dis": "B12 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000241",
+    "dis": "B12"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "425b8dee-ba8d-4863-a59f-1b12d7fe7452",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "7892aef3-fd2e-4f31-8182-66ac8569b91c",
+    "dis": "B13 Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000242",
+    "dis": "B13"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "7892aef3-fd2e-4f31-8182-66ac8569b91c",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "36f44eae-6c82-4618-b1fc-e1daf9ea10bd",
+    "dis": "Grounds Ground floor"
+   },
+   "dis": "Ground floor",
+   "space": {
+    "_kind": "marker"
+   },
+   "floor": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000243",
+    "dis": "Grounds"
+   },
+   "plotlayLevel": "ground",
+   "plotlayGuid": "36f44eae-6c82-4618-b1fc-e1daf9ea10bd",
+   "plotlayElevation": {
+    "_kind": "number",
+    "val": 0,
+    "unit": "m"
+   },
+   "plotlayOrdinal": {
+    "_kind": "number",
+    "val": 0
+   }
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000004",
+    "dis": "MSB-001 Main switchboard (MSB)"
+   },
+   "dis": "MSB-001 Main switchboard, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "MSB-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000004",
+   "plotlayType": "msb",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000005",
+    "dis": "DB-001 Distribution board (DB)"
+   },
+   "dis": "DB-001 Distribution board, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000005",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000006",
+    "dis": "DB-002 Distribution board (DB)"
+   },
+   "dis": "DB-002 Distribution board, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000006",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000007",
+    "dis": "DB-003 Distribution board (DB)"
+   },
+   "dis": "DB-003 Distribution board, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000007",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000008",
+    "dis": "DB-004 Distribution board (DB)"
+   },
+   "dis": "DB-004 Distribution board, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000008",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000009",
+    "dis": "DB-005 Distribution board (DB)"
+   },
+   "dis": "DB-005 Distribution board, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000009",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000010",
+    "dis": "DB-006 Distribution board (DB)"
+   },
+   "dis": "DB-006 Distribution board, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000010",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000011",
+    "dis": "EM-001 Electricity meter"
+   },
+   "dis": "EM-001 Electricity meter, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000011",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000012",
+    "dis": "WM-001 Water meter"
+   },
+   "dis": "WM-001 Water meter, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "WM-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000012",
+   "plotlayType": "water_meter",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000013",
+    "dis": "FIP-001 Fire indicator panel (FIP)"
+   },
+   "dis": "FIP-001 Fire indicator panel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FIP-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000013",
+   "plotlayType": "fip",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000014",
+    "dis": "MECP-001 Master emergency control panel (MECP)"
+   },
+   "dis": "MECP-001 Master emergency control panel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "MECP-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000014",
+   "plotlayType": "ewis_panel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000015",
+    "dis": "EXT-001 Fire extinguisher"
+   },
+   "dis": "EXT-001 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000015",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000016",
+    "dis": "EXT-002 Fire extinguisher"
+   },
+   "dis": "EXT-002 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000016",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000017",
+    "dis": "EXT-003 Fire extinguisher"
+   },
+   "dis": "EXT-003 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000017",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000018",
+    "dis": "EXT-004 Fire extinguisher"
+   },
+   "dis": "EXT-004 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000018",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000019",
+    "dis": "EXT-005 Fire extinguisher"
+   },
+   "dis": "EXT-005 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000019",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000020",
+    "dis": "EXT-006 Fire extinguisher"
+   },
+   "dis": "EXT-006 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000020",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000021",
+    "dis": "EXT-007 Fire extinguisher"
+   },
+   "dis": "EXT-007 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000021",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000022",
+    "dis": "EXT-008 Fire extinguisher"
+   },
+   "dis": "EXT-008 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000022",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000023",
+    "dis": "EXT-009 Fire extinguisher"
+   },
+   "dis": "EXT-009 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000023",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000024",
+    "dis": "EXT-010 Fire extinguisher"
+   },
+   "dis": "EXT-010 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000024",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000025",
+    "dis": "EXT-011 Fire extinguisher"
+   },
+   "dis": "EXT-011 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-011",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000025",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000026",
+    "dis": "EXT-012 Fire extinguisher"
+   },
+   "dis": "EXT-012 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-012",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000026",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000027",
+    "dis": "EXT-013 Fire extinguisher"
+   },
+   "dis": "EXT-013 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-013",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000027",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000028",
+    "dis": "EXT-014 Fire extinguisher"
+   },
+   "dis": "EXT-014 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-014",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000028",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000029",
+    "dis": "EXT-015 Fire extinguisher"
+   },
+   "dis": "EXT-015 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-015",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000029",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000030",
+    "dis": "EXT-016 Fire extinguisher"
+   },
+   "dis": "EXT-016 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-016",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000030",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000031",
+    "dis": "EXT-017 Fire extinguisher"
+   },
+   "dis": "EXT-017 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-017",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000031",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000032",
+    "dis": "EXT-018 Fire extinguisher"
+   },
+   "dis": "EXT-018 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-018",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000032",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000033",
+    "dis": "EXT-019 Fire extinguisher"
+   },
+   "dis": "EXT-019 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-019",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000033",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000034",
+    "dis": "EXT-020 Fire extinguisher"
+   },
+   "dis": "EXT-020 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-020",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000034",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000035",
+    "dis": "EXT-021 Fire extinguisher"
+   },
+   "dis": "EXT-021 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-021",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000035",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000036",
+    "dis": "EXT-022 Fire extinguisher"
+   },
+   "dis": "EXT-022 Fire extinguisher, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-022",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000036",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000037",
+    "dis": "FB-001 Fire blanket"
+   },
+   "dis": "FB-001 Fire blanket, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FB-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000037",
+   "plotlayType": "fire_blanket",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000038",
+    "dis": "FH-001 Internal fire hydrant"
+   },
+   "dis": "FH-001 Internal fire hydrant, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000038",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000039",
+    "dis": "FH-002 Internal fire hydrant"
+   },
+   "dis": "FH-002 Internal fire hydrant, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000039",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000040",
+    "dis": "FH-003 Internal fire hydrant"
+   },
+   "dis": "FH-003 Internal fire hydrant, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000040",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000041",
+    "dis": "FH-004 Internal fire hydrant"
+   },
+   "dis": "FH-004 Internal fire hydrant, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000041",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000042",
+    "dis": "FHR-001 Fire hose reel"
+   },
+   "dis": "FHR-001 Fire hose reel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000042",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000043",
+    "dis": "FHR-002 Fire hose reel"
+   },
+   "dis": "FHR-002 Fire hose reel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000043",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000044",
+    "dis": "FHR-003 Fire hose reel"
+   },
+   "dis": "FHR-003 Fire hose reel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000044",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000045",
+    "dis": "FHR-004 Fire hose reel"
+   },
+   "dis": "FHR-004 Fire hose reel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000045",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000046",
+    "dis": "FHR-005 Fire hose reel"
+   },
+   "dis": "FHR-005 Fire hose reel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000046",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000047",
+    "dis": "FHR-006 Fire hose reel"
+   },
+   "dis": "FHR-006 Fire hose reel, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000047",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000048",
+    "dis": "FD-001 Fire door"
+   },
+   "dis": "FD-001 Fire door, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000048",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000049",
+    "dis": "FD-002 Fire door"
+   },
+   "dis": "FD-002 Fire door, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000049",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000050",
+    "dis": "FD-003 Fire door"
+   },
+   "dis": "FD-003 Fire door, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000050",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000051",
+    "dis": "FD-004 Fire door"
+   },
+   "dis": "FD-004 Fire door, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000051",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000052",
+    "dis": "FD-005 Fire door"
+   },
+   "dis": "FD-005 Fire door, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000052",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000053",
+    "dis": "FD-006 Fire door"
+   },
+   "dis": "FD-006 Fire door, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000053",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000054",
+    "dis": "EXL-001 Combination exit and emergency light"
+   },
+   "dis": "EXL-001 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000054",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000055",
+    "dis": "EXL-002 Combination exit and emergency light"
+   },
+   "dis": "EXL-002 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000055",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000056",
+    "dis": "EXL-003 Combination exit and emergency light"
+   },
+   "dis": "EXL-003 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000056",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000057",
+    "dis": "EXL-004 Combination exit and emergency light"
+   },
+   "dis": "EXL-004 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000057",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000058",
+    "dis": "EXL-005 Combination exit and emergency light"
+   },
+   "dis": "EXL-005 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000058",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000059",
+    "dis": "EXL-006 Combination exit and emergency light"
+   },
+   "dis": "EXL-006 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000059",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000060",
+    "dis": "EXL-007 Combination exit and emergency light"
+   },
+   "dis": "EXL-007 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000060",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000061",
+    "dis": "EXL-008 Combination exit and emergency light"
+   },
+   "dis": "EXL-008 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000061",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000062",
+    "dis": "EXL-009 Combination exit and emergency light"
+   },
+   "dis": "EXL-009 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000062",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000063",
+    "dis": "EXL-010 Combination exit and emergency light"
+   },
+   "dis": "EXL-010 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000063",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000064",
+    "dis": "EXL-011 Combination exit and emergency light"
+   },
+   "dis": "EXL-011 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-011",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000064",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000065",
+    "dis": "EXL-012 Combination exit and emergency light"
+   },
+   "dis": "EXL-012 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-012",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000065",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000066",
+    "dis": "EXL-013 Combination exit and emergency light"
+   },
+   "dis": "EXL-013 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-013",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000066",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000067",
+    "dis": "EXL-014 Combination exit and emergency light"
+   },
+   "dis": "EXL-014 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-014",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000067",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000068",
+    "dis": "EXL-015 Combination exit and emergency light"
+   },
+   "dis": "EXL-015 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-015",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000068",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000069",
+    "dis": "EXL-016 Combination exit and emergency light"
+   },
+   "dis": "EXL-016 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-016",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000069",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000070",
+    "dis": "EXL-017 Combination exit and emergency light"
+   },
+   "dis": "EXL-017 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-017",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000070",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000071",
+    "dis": "EXL-018 Combination exit and emergency light"
+   },
+   "dis": "EXL-018 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-018",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000071",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000072",
+    "dis": "EXL-019 Combination exit and emergency light"
+   },
+   "dis": "EXL-019 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-019",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000072",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000073",
+    "dis": "EXL-020 Combination exit and emergency light"
+   },
+   "dis": "EXL-020 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-020",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000073",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000074",
+    "dis": "EXL-021 Combination exit and emergency light"
+   },
+   "dis": "EXL-021 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-021",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000074",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000075",
+    "dis": "EXL-022 Combination exit and emergency light"
+   },
+   "dis": "EXL-022 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-022",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000075",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000076",
+    "dis": "EXL-023 Combination exit and emergency light"
+   },
+   "dis": "EXL-023 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-023",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000076",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000077",
+    "dis": "EXL-024 Combination exit and emergency light"
+   },
+   "dis": "EXL-024 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-024",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000077",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000078",
+    "dis": "EXL-025 Combination exit and emergency light"
+   },
+   "dis": "EXL-025 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-025",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000078",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000079",
+    "dis": "EXL-026 Combination exit and emergency light"
+   },
+   "dis": "EXL-026 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-026",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000079",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000080",
+    "dis": "EXL-027 Combination exit and emergency light"
+   },
+   "dis": "EXL-027 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-027",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000080",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000081",
+    "dis": "EXL-028 Combination exit and emergency light"
+   },
+   "dis": "EXL-028 Combination exit and emergency light, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-028",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000081",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000082",
+    "dis": "AHU-001 Air handling unit (AHU)"
+   },
+   "dis": "AHU-001 Air handling unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "ahu": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "AHU-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000082",
+   "plotlayType": "ahu",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000083",
+    "dis": "AHU-002 Air handling unit (AHU)"
+   },
+   "dis": "AHU-002 Air handling unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "ahu": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "AHU-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000083",
+   "plotlayType": "ahu",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000084",
+    "dis": "BLR-001 Boiler"
+   },
+   "dis": "BLR-001 Boiler, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "boiler": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "BLR-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000084",
+   "plotlayType": "boiler",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000085",
+    "dis": "ACU-001 Split system outdoor unit"
+   },
+   "dis": "ACU-001 Split system outdoor unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000085",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000086",
+    "dis": "ACU-002 Split system outdoor unit"
+   },
+   "dis": "ACU-002 Split system outdoor unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000086",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000087",
+    "dis": "ACU-003 Split system outdoor unit"
+   },
+   "dis": "ACU-003 Split system outdoor unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000087",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000088",
+    "dis": "ACU-004 Split system outdoor unit"
+   },
+   "dis": "ACU-004 Split system outdoor unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000088",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000089",
+    "dis": "ACU-005 Split system outdoor unit"
+   },
+   "dis": "ACU-005 Split system outdoor unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000089",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000090",
+    "dis": "ACU-006 Split system outdoor unit"
+   },
+   "dis": "ACU-006 Split system outdoor unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000090",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000091",
+    "dis": "EF-001 Fan"
+   },
+   "dis": "EF-001 Fan, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "fan": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EF-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000091",
+   "plotlayType": "fan",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000092",
+    "dis": "EF-002 Fan"
+   },
+   "dis": "EF-002 Fan, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "fan": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EF-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000092",
+   "plotlayType": "fan",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000093",
+    "dis": "MSSB-001 Mechanical services switchboard (MSSB)"
+   },
+   "dis": "MSSB-001 Mechanical services switchboard, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "MSSB-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000093",
+   "plotlayType": "bms_panel",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000094",
+    "dis": "HWU-001 Hot water unit"
+   },
+   "dis": "HWU-001 Hot water unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "HWU-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000094",
+   "plotlayType": "hot_water",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000095",
+    "dis": "HWU-002 Hot water unit"
+   },
+   "dis": "HWU-002 Hot water unit, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "HWU-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000095",
+   "plotlayType": "hot_water",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000096",
+    "dis": "TMV-001 Thermostatic mixing valve (TMV)"
+   },
+   "dis": "TMV-001 Thermostatic mixing valve, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "TMV-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000096",
+   "plotlayType": "tmv",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000097",
+    "dis": "TMV-002 Thermostatic mixing valve (TMV)"
+   },
+   "dis": "TMV-002 Thermostatic mixing valve, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "TMV-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000097",
+   "plotlayType": "tmv",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000098",
+    "dis": "TMV-003 Thermostatic mixing valve (TMV)"
+   },
+   "dis": "TMV-003 Thermostatic mixing valve, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "TMV-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000098",
+   "plotlayType": "tmv",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000099",
+    "dis": "TMV-004 Thermostatic mixing valve (TMV)"
+   },
+   "dis": "TMV-004 Thermostatic mixing valve, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "TMV-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000099",
+   "plotlayType": "tmv",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000100",
+    "dis": "BFP-001 Backflow prevention device"
+   },
+   "dis": "BFP-001 Backflow prevention device, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "BFP-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000100",
+   "plotlayType": "backflow",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000101",
+    "dis": "LIFT-001 Lift"
+   },
+   "dis": "LIFT-001 Lift, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elevator": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "LIFT-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000101",
+   "plotlayType": "lift",
+   "plotlaySystem": "Vertical transport"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000102",
+    "dis": "RAP-001 Roof anchor point"
+   },
+   "dis": "RAP-001 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000102",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000103",
+    "dis": "RAP-002 Roof anchor point"
+   },
+   "dis": "RAP-002 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000103",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000104",
+    "dis": "RAP-003 Roof anchor point"
+   },
+   "dis": "RAP-003 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000104",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000105",
+    "dis": "RAP-004 Roof anchor point"
+   },
+   "dis": "RAP-004 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000105",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000106",
+    "dis": "RAP-005 Roof anchor point"
+   },
+   "dis": "RAP-005 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000106",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000107",
+    "dis": "RAP-006 Roof anchor point"
+   },
+   "dis": "RAP-006 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000107",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000108",
+    "dis": "RAP-007 Roof anchor point"
+   },
+   "dis": "RAP-007 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000108",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000109",
+    "dis": "RAP-008 Roof anchor point"
+   },
+   "dis": "RAP-008 Roof anchor point, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000109",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000110",
+    "dis": "SL-001 Static line"
+   },
+   "dis": "SL-001 Static line, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "SL-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000110",
+   "plotlayType": "static_line",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000111",
+    "dis": "INV-001 Solar inverter"
+   },
+   "dis": "INV-001 Solar inverter, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "INV-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000111",
+   "plotlayType": "solar_inverter",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000112",
+    "dis": "LP-001 Lightning protection"
+   },
+   "dis": "LP-001 Lightning protection, B01",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000230",
+    "dis": "B01"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000003",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "LP-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000112",
+   "plotlayType": "lightning",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000113",
+    "dis": "DB-007 Distribution board (DB)"
+   },
+   "dis": "DB-007 Distribution board, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000113",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000114",
+    "dis": "DB-008 Distribution board (DB)"
+   },
+   "dis": "DB-008 Distribution board, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000114",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000115",
+    "dis": "DB-009 Distribution board (DB)"
+   },
+   "dis": "DB-009 Distribution board, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000115",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000116",
+    "dis": "EM-002 Electricity meter"
+   },
+   "dis": "EM-002 Electricity meter, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000116",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000117",
+    "dis": "WM-002 Water meter"
+   },
+   "dis": "WM-002 Water meter, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "WM-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000117",
+   "plotlayType": "water_meter",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000118",
+    "dis": "EXT-023 Fire extinguisher"
+   },
+   "dis": "EXT-023 Fire extinguisher, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-023",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000118",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000119",
+    "dis": "EXT-024 Fire extinguisher"
+   },
+   "dis": "EXT-024 Fire extinguisher, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-024",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000119",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000120",
+    "dis": "EXT-025 Fire extinguisher"
+   },
+   "dis": "EXT-025 Fire extinguisher, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-025",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000120",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000121",
+    "dis": "EXT-026 Fire extinguisher"
+   },
+   "dis": "EXT-026 Fire extinguisher, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-026",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000121",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000122",
+    "dis": "FH-005 Internal fire hydrant"
+   },
+   "dis": "FH-005 Internal fire hydrant, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000122",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000123",
+    "dis": "FHR-007 Fire hose reel"
+   },
+   "dis": "FHR-007 Fire hose reel, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000123",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000124",
+    "dis": "FHR-008 Fire hose reel"
+   },
+   "dis": "FHR-008 Fire hose reel, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000124",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000125",
+    "dis": "FD-007 Fire door"
+   },
+   "dis": "FD-007 Fire door, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000125",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000126",
+    "dis": "FD-008 Fire door"
+   },
+   "dis": "FD-008 Fire door, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000126",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000127",
+    "dis": "EXL-029 Combination exit and emergency light"
+   },
+   "dis": "EXL-029 Combination exit and emergency light, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-029",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000127",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000128",
+    "dis": "EXL-030 Combination exit and emergency light"
+   },
+   "dis": "EXL-030 Combination exit and emergency light, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-030",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000128",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000129",
+    "dis": "EXL-031 Combination exit and emergency light"
+   },
+   "dis": "EXL-031 Combination exit and emergency light, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-031",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000129",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000130",
+    "dis": "EXL-032 Combination exit and emergency light"
+   },
+   "dis": "EXL-032 Combination exit and emergency light, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-032",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000130",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000131",
+    "dis": "EXL-033 Combination exit and emergency light"
+   },
+   "dis": "EXL-033 Combination exit and emergency light, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-033",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000131",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000132",
+    "dis": "EXL-034 Combination exit and emergency light"
+   },
+   "dis": "EXL-034 Combination exit and emergency light, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-034",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000132",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000133",
+    "dis": "ACU-007 Split system outdoor unit"
+   },
+   "dis": "ACU-007 Split system outdoor unit, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000133",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000134",
+    "dis": "ACU-008 Split system outdoor unit"
+   },
+   "dis": "ACU-008 Split system outdoor unit, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000134",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000135",
+    "dis": "ACU-009 Split system outdoor unit"
+   },
+   "dis": "ACU-009 Split system outdoor unit, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000135",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000136",
+    "dis": "HWU-003 Hot water unit"
+   },
+   "dis": "HWU-003 Hot water unit, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "HWU-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000136",
+   "plotlayType": "hot_water",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000137",
+    "dis": "RAP-009 Roof anchor point"
+   },
+   "dis": "RAP-009 Roof anchor point, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000137",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000138",
+    "dis": "RAP-010 Roof anchor point"
+   },
+   "dis": "RAP-010 Roof anchor point, B02",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000231",
+    "dis": "B02"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "f466da9b-9d42-485c-a510-d8d5bbe333a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000138",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000139",
+    "dis": "DB-010 Distribution board (DB)"
+   },
+   "dis": "DB-010 Distribution board, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000139",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000140",
+    "dis": "DB-011 Distribution board (DB)"
+   },
+   "dis": "DB-011 Distribution board, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-011",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000140",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000141",
+    "dis": "DB-012 Distribution board (DB)"
+   },
+   "dis": "DB-012 Distribution board, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-012",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000141",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000142",
+    "dis": "EM-003 Electricity meter"
+   },
+   "dis": "EM-003 Electricity meter, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000142",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000143",
+    "dis": "WM-003 Water meter"
+   },
+   "dis": "WM-003 Water meter, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "WM-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000143",
+   "plotlayType": "water_meter",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000144",
+    "dis": "FIP-002 Fire indicator panel (FIP)"
+   },
+   "dis": "FIP-002 Fire indicator panel, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FIP-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000144",
+   "plotlayType": "fip",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000145",
+    "dis": "MECP-002 Master emergency control panel (MECP)"
+   },
+   "dis": "MECP-002 Master emergency control panel, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "MECP-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000145",
+   "plotlayType": "ewis_panel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000146",
+    "dis": "EXT-027 Fire extinguisher"
+   },
+   "dis": "EXT-027 Fire extinguisher, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-027",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000146",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000147",
+    "dis": "EXT-028 Fire extinguisher"
+   },
+   "dis": "EXT-028 Fire extinguisher, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-028",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000147",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000148",
+    "dis": "EXT-029 Fire extinguisher"
+   },
+   "dis": "EXT-029 Fire extinguisher, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-029",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000148",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000149",
+    "dis": "EXT-030 Fire extinguisher"
+   },
+   "dis": "EXT-030 Fire extinguisher, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-030",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000149",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000150",
+    "dis": "EXT-031 Fire extinguisher"
+   },
+   "dis": "EXT-031 Fire extinguisher, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-031",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000150",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000151",
+    "dis": "EXT-032 Fire extinguisher"
+   },
+   "dis": "EXT-032 Fire extinguisher, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-032",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000151",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000152",
+    "dis": "FB-002 Fire blanket"
+   },
+   "dis": "FB-002 Fire blanket, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FB-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000152",
+   "plotlayType": "fire_blanket",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000153",
+    "dis": "FB-003 Fire blanket"
+   },
+   "dis": "FB-003 Fire blanket, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FB-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000153",
+   "plotlayType": "fire_blanket",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000154",
+    "dis": "FH-006 Internal fire hydrant"
+   },
+   "dis": "FH-006 Internal fire hydrant, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000154",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000155",
+    "dis": "FH-007 Internal fire hydrant"
+   },
+   "dis": "FH-007 Internal fire hydrant, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FH-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000155",
+   "plotlayType": "hydrant_internal",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000156",
+    "dis": "FHR-009 Fire hose reel"
+   },
+   "dis": "FHR-009 Fire hose reel, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000156",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000157",
+    "dis": "FHR-010 Fire hose reel"
+   },
+   "dis": "FHR-010 Fire hose reel, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FHR-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000157",
+   "plotlayType": "hose_reel",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000158",
+    "dis": "FD-009 Fire door"
+   },
+   "dis": "FD-009 Fire door, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000158",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000159",
+    "dis": "FD-010 Fire door"
+   },
+   "dis": "FD-010 Fire door, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000159",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000160",
+    "dis": "FD-011 Fire door"
+   },
+   "dis": "FD-011 Fire door, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-011",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000160",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000161",
+    "dis": "FD-012 Fire door"
+   },
+   "dis": "FD-012 Fire door, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "FD-012",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000161",
+   "plotlayType": "fire_door",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000162",
+    "dis": "EXL-035 Combination exit and emergency light"
+   },
+   "dis": "EXL-035 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-035",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000162",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000163",
+    "dis": "EXL-036 Combination exit and emergency light"
+   },
+   "dis": "EXL-036 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-036",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000163",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000164",
+    "dis": "EXL-037 Combination exit and emergency light"
+   },
+   "dis": "EXL-037 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-037",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000164",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000165",
+    "dis": "EXL-038 Combination exit and emergency light"
+   },
+   "dis": "EXL-038 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-038",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000165",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000166",
+    "dis": "EXL-039 Combination exit and emergency light"
+   },
+   "dis": "EXL-039 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-039",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000166",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000167",
+    "dis": "EXL-040 Combination exit and emergency light"
+   },
+   "dis": "EXL-040 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-040",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000167",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000168",
+    "dis": "EXL-041 Combination exit and emergency light"
+   },
+   "dis": "EXL-041 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-041",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000168",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000169",
+    "dis": "EXL-042 Combination exit and emergency light"
+   },
+   "dis": "EXL-042 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-042",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000169",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000170",
+    "dis": "EXL-043 Combination exit and emergency light"
+   },
+   "dis": "EXL-043 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-043",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000170",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000171",
+    "dis": "EXL-044 Combination exit and emergency light"
+   },
+   "dis": "EXL-044 Combination exit and emergency light, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-044",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000171",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000172",
+    "dis": "AHU-003 Air handling unit (AHU)"
+   },
+   "dis": "AHU-003 Air handling unit, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "ahu": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "AHU-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000172",
+   "plotlayType": "ahu",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000173",
+    "dis": "AHU-004 Air handling unit (AHU)"
+   },
+   "dis": "AHU-004 Air handling unit, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "ahu": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "AHU-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000173",
+   "plotlayType": "ahu",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000174",
+    "dis": "CH-001 Chiller"
+   },
+   "dis": "CH-001 Chiller, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "chiller": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "CH-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000174",
+   "plotlayType": "chiller",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000175",
+    "dis": "VRF-001 VRF outdoor unit"
+   },
+   "dis": "VRF-001 VRF outdoor unit, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "VRF-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000175",
+   "plotlayType": "vrf_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000176",
+    "dis": "VRF-002 VRF outdoor unit"
+   },
+   "dis": "VRF-002 VRF outdoor unit, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "VRF-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000176",
+   "plotlayType": "vrf_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000177",
+    "dis": "EF-003 Fan"
+   },
+   "dis": "EF-003 Fan, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "fan": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EF-003",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000177",
+   "plotlayType": "fan",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000178",
+    "dis": "EF-004 Fan"
+   },
+   "dis": "EF-004 Fan, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "fan": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EF-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000178",
+   "plotlayType": "fan",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000179",
+    "dis": "MSSB-002 Mechanical services switchboard (MSSB)"
+   },
+   "dis": "MSSB-002 Mechanical services switchboard, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "MSSB-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000179",
+   "plotlayType": "bms_panel",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000180",
+    "dis": "HWU-004 Hot water unit"
+   },
+   "dis": "HWU-004 Hot water unit, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "water": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "HWU-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000180",
+   "plotlayType": "hot_water",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000181",
+    "dis": "TMV-005 Thermostatic mixing valve (TMV)"
+   },
+   "dis": "TMV-005 Thermostatic mixing valve, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "TMV-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000181",
+   "plotlayType": "tmv",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000182",
+    "dis": "TMV-006 Thermostatic mixing valve (TMV)"
+   },
+   "dis": "TMV-006 Thermostatic mixing valve, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "valve": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "TMV-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000182",
+   "plotlayType": "tmv",
+   "plotlaySystem": "Hydraulic"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000183",
+    "dis": "LIFT-002 Lift"
+   },
+   "dis": "LIFT-002 Lift, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elevator": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "LIFT-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000183",
+   "plotlayType": "lift",
+   "plotlaySystem": "Vertical transport"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000184",
+    "dis": "RAP-011 Roof anchor point"
+   },
+   "dis": "RAP-011 Roof anchor point, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-011",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000184",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000185",
+    "dis": "RAP-012 Roof anchor point"
+   },
+   "dis": "RAP-012 Roof anchor point, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-012",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000185",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000186",
+    "dis": "RAP-013 Roof anchor point"
+   },
+   "dis": "RAP-013 Roof anchor point, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-013",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000186",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000187",
+    "dis": "RAP-014 Roof anchor point"
+   },
+   "dis": "RAP-014 Roof anchor point, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "RAP-014",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000187",
+   "plotlayType": "roof_anchor",
+   "plotlaySystem": "Safety and access"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000188",
+    "dis": "INV-002 Solar inverter"
+   },
+   "dis": "INV-002 Solar inverter, B03",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000232",
+    "dis": "B03"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "7aec231f-51d7-4415-b6a1-6d96f8aca558",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "INV-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000188",
+   "plotlayType": "solar_inverter",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000189",
+    "dis": "DB-013 Distribution board (DB)"
+   },
+   "dis": "DB-013 Distribution board, B04",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-013",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000189",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000190",
+    "dis": "EM-004 Electricity meter"
+   },
+   "dis": "EM-004 Electricity meter, B04",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-004",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000190",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000191",
+    "dis": "EXT-033 Fire extinguisher"
+   },
+   "dis": "EXT-033 Fire extinguisher, B04",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-033",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000191",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000192",
+    "dis": "EXL-045 Combination exit and emergency light"
+   },
+   "dis": "EXL-045 Combination exit and emergency light, B04",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-045",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000192",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000193",
+    "dis": "EXL-046 Combination exit and emergency light"
+   },
+   "dis": "EXL-046 Combination exit and emergency light, B04",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-046",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000193",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000194",
+    "dis": "ACU-010 Split system outdoor unit"
+   },
+   "dis": "ACU-010 Split system outdoor unit, B04",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000233",
+    "dis": "B04"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "64be52c8-48f0-40b7-887f-827b91b5ccd3",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-010",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000194",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000195",
+    "dis": "DB-014 Distribution board (DB)"
+   },
+   "dis": "DB-014 Distribution board, B05",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-014",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000195",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000196",
+    "dis": "EM-005 Electricity meter"
+   },
+   "dis": "EM-005 Electricity meter, B05",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-005",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000196",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000197",
+    "dis": "EXT-034 Fire extinguisher"
+   },
+   "dis": "EXT-034 Fire extinguisher, B05",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-034",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000197",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000198",
+    "dis": "EXL-047 Combination exit and emergency light"
+   },
+   "dis": "EXL-047 Combination exit and emergency light, B05",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-047",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000198",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000199",
+    "dis": "EXL-048 Combination exit and emergency light"
+   },
+   "dis": "EXL-048 Combination exit and emergency light, B05",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-048",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000199",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000200",
+    "dis": "ACU-011 Split system outdoor unit"
+   },
+   "dis": "ACU-011 Split system outdoor unit, B05",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000234",
+    "dis": "B05"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "75139421-2bff-4fbd-977d-b2032e003e19",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-011",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000200",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000201",
+    "dis": "DB-015 Distribution board (DB)"
+   },
+   "dis": "DB-015 Distribution board, B06",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-015",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000201",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000202",
+    "dis": "EM-006 Electricity meter"
+   },
+   "dis": "EM-006 Electricity meter, B06",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-006",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000202",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000203",
+    "dis": "EXT-035 Fire extinguisher"
+   },
+   "dis": "EXT-035 Fire extinguisher, B06",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-035",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000203",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000204",
+    "dis": "EXL-049 Combination exit and emergency light"
+   },
+   "dis": "EXL-049 Combination exit and emergency light, B06",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-049",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000204",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000205",
+    "dis": "EXL-050 Combination exit and emergency light"
+   },
+   "dis": "EXL-050 Combination exit and emergency light, B06",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-050",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000205",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000206",
+    "dis": "ACU-012 Split system outdoor unit"
+   },
+   "dis": "ACU-012 Split system outdoor unit, B06",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000235",
+    "dis": "B06"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "c3f4660b-9d71-411b-9276-9b3770529cd7",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-012",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000206",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000207",
+    "dis": "DB-016 Distribution board (DB)"
+   },
+   "dis": "DB-016 Distribution board, B07",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-016",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000207",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000208",
+    "dis": "EM-007 Electricity meter"
+   },
+   "dis": "EM-007 Electricity meter, B07",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-007",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000208",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000209",
+    "dis": "EXT-036 Fire extinguisher"
+   },
+   "dis": "EXT-036 Fire extinguisher, B07",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-036",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000209",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000210",
+    "dis": "EXL-051 Combination exit and emergency light"
+   },
+   "dis": "EXL-051 Combination exit and emergency light, B07",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-051",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000210",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000211",
+    "dis": "EXL-052 Combination exit and emergency light"
+   },
+   "dis": "EXL-052 Combination exit and emergency light, B07",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-052",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000211",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000212",
+    "dis": "ACU-013 Split system outdoor unit"
+   },
+   "dis": "ACU-013 Split system outdoor unit, B07",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000236",
+    "dis": "B07"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-013",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000212",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000213",
+    "dis": "DB-017 Distribution board (DB)"
+   },
+   "dis": "DB-017 Distribution board, B08",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-017",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000213",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000214",
+    "dis": "EM-008 Electricity meter"
+   },
+   "dis": "EM-008 Electricity meter, B08",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-008",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000214",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000215",
+    "dis": "EXT-037 Fire extinguisher"
+   },
+   "dis": "EXT-037 Fire extinguisher, B08",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-037",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000215",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000216",
+    "dis": "EXL-053 Combination exit and emergency light"
+   },
+   "dis": "EXL-053 Combination exit and emergency light, B08",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-053",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000216",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000217",
+    "dis": "EXL-054 Combination exit and emergency light"
+   },
+   "dis": "EXL-054 Combination exit and emergency light, B08",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-054",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000217",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000218",
+    "dis": "ACU-014 Split system outdoor unit"
+   },
+   "dis": "ACU-014 Split system outdoor unit, B08",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000237",
+    "dis": "B08"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-014",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000218",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000219",
+    "dis": "DB-018 Distribution board (DB)"
+   },
+   "dis": "DB-018 Distribution board, B09",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-018",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000219",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000220",
+    "dis": "EM-009 Electricity meter"
+   },
+   "dis": "EM-009 Electricity meter, B09",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "meter": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EM-009",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000220",
+   "plotlayType": "elec_meter",
+   "plotlaySystem": "BMS"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000221",
+    "dis": "EXT-038 Fire extinguisher"
+   },
+   "dis": "EXT-038 Fire extinguisher, B09",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-038",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000221",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000222",
+    "dis": "EXL-055 Combination exit and emergency light"
+   },
+   "dis": "EXL-055 Combination exit and emergency light, B09",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-055",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000222",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000223",
+    "dis": "EXL-056 Combination exit and emergency light"
+   },
+   "dis": "EXL-056 Combination exit and emergency light, B09",
+   "equip": {
+    "_kind": "marker"
+   },
+   "luminaire": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXL-056",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000223",
+   "plotlayType": "combo_light",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000224",
+    "dis": "ACU-015 Split system outdoor unit"
+   },
+   "dis": "ACU-015 Split system outdoor unit, B09",
+   "equip": {
+    "_kind": "marker"
+   },
+   "hvac": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000238",
+    "dis": "B09"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "e556dd09-8024-4bfc-8ccf-03819688b7a2",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "ACU-015",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000224",
+   "plotlayType": "split_outdoor",
+   "plotlaySystem": "HVAC"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000225",
+    "dis": "DB-019 Distribution board (DB)"
+   },
+   "dis": "DB-019 Distribution board, B10",
+   "equip": {
+    "_kind": "marker"
+   },
+   "elec": {
+    "_kind": "marker"
+   },
+   "panel": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000239",
+    "dis": "B10"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "be6554d4-6c34-47fd-90bf-f22dd184fc9b",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "be6554d4-6c34-47fd-90bf-f22dd184fc9b",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "DB-019",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000225",
+   "plotlayType": "db",
+   "plotlaySystem": "Electrical"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000226",
+    "dis": "EXT-039 Fire extinguisher"
+   },
+   "dis": "EXT-039 Fire extinguisher, B10",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000239",
+    "dis": "B10"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "be6554d4-6c34-47fd-90bf-f22dd184fc9b",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "be6554d4-6c34-47fd-90bf-f22dd184fc9b",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-039",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000226",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000227",
+    "dis": "EXT-040 Fire extinguisher"
+   },
+   "dis": "EXT-040 Fire extinguisher, B11",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000240",
+    "dis": "B11"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "70dc128a-f2ad-43c4-bbff-9632f7a28e6f",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "70dc128a-f2ad-43c4-bbff-9632f7a28e6f",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EXT-040",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000227",
+   "plotlayType": "extinguisher",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000228",
+    "dis": "EH-001 External fire hydrant"
+   },
+   "dis": "EH-001 External fire hydrant, grounds",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000243",
+    "dis": "Grounds"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "36f44eae-6c82-4618-b1fc-e1daf9ea10bd",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "36f44eae-6c82-4618-b1fc-e1daf9ea10bd",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EH-001",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000228",
+   "plotlayType": "hydrant_external",
+   "plotlaySystem": "Fire"
+  },
+  {
+   "id": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000229",
+    "dis": "EH-002 External fire hydrant"
+   },
+   "dis": "EH-002 External fire hydrant, grounds",
+   "equip": {
+    "_kind": "marker"
+   },
+   "siteRef": {
+    "_kind": "ref",
+    "val": "5a3e0000-0000-4000-8000-000000000243",
+    "dis": "Grounds"
+   },
+   "spaceRef": {
+    "_kind": "ref",
+    "val": "36f44eae-6c82-4618-b1fc-e1daf9ea10bd",
+    "dis": "Ground floor"
+   },
+   "floorRef": {
+    "_kind": "ref",
+    "val": "36f44eae-6c82-4618-b1fc-e1daf9ea10bd",
+    "dis": "Ground floor"
+   },
+   "plotlayTag": "EH-002",
+   "plotlayGuid": "5a3e0000-0000-4000-8000-000000000229",
+   "plotlayType": "hydrant_external",
+   "plotlaySystem": "Fire"
+  }
+ ]
+}

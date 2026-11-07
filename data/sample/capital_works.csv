@@ -1,0 +1,29 @@
+project_id,building,element,description,driver,priority,target_year,estimate_aud,linked_assets,status,data_status
+CW-001,B01,Mechanical,Replace 1 air handling unit,Risk and end of life,2 In 2 to 3 years,2028,122000,AHU-002,Unfunded,Sample data
+CW-002,B01,Hydraulic,Replace 1 backflow prevention device,Risk and end of life,1 Within a year,2027,7000,BFP-001,Unfunded,Sample data
+CW-003,B01,Egress,Replace 8 combination exit and emergency lights,Risk and end of life,2 In 2 to 3 years,2028,5000,EXL-004;EXL-005;EXL-015;EXL-018;EXL-019;EXL-021;EXL-022;EXL-026,Unfunded,Sample data
+CW-004,B01,Electrical,Replace 2 distribution boards,Risk and end of life,2 In 2 to 3 years,2028,39000,DB-001;DB-004,Funded,Sample data
+CW-005,B01,Mechanical,Replace 1 fan,Risk and end of life,1 Within a year,2027,9000,EF-001,Unfunded,Sample data
+CW-006,B01,Fire,Replace 1 fire door,Risk and end of life,1 Within a year,2027,6000,FD-005,Unfunded,Sample data
+CW-007,B01,Fire,Replace 6 fire extinguishers,Risk and end of life,1 Within a year,2027,2000,EXT-002;EXT-006;EXT-012;EXT-014;EXT-016;EXT-018,Unfunded,Sample data
+CW-008,B01,Safety,Replace 1 static line,Risk and end of life,1 Within a year,2027,11000,SL-001,Unfunded,Sample data
+CW-009,B02,Electrical,Replace 1 distribution board,Risk and end of life,2 In 2 to 3 years,2028,18000,DB-007,Unfunded,Sample data
+CW-010,B02,Fire,Replace 2 fire doors,Risk and end of life,1 Within a year,2027,14000,FD-007;FD-008,Funded,Sample data
+CW-011,B02,Fire,Replace 2 fire hose reels,Risk and end of life,1 Within a year,2027,4000,FHR-007;FHR-008,Unfunded,Sample data
+CW-012,B02,Fire,Replace 1 internal fire hydrant,Risk and end of life,2 In 2 to 3 years,2028,6000,FH-005,Unfunded,Sample data
+CW-013,B03,Egress,Replace 1 combination exit and emergency light,Risk and end of life,1 Within a year,2027,1000,EXL-038,Unfunded,Sample data
+CW-014,B03,Fire,Replace 2 fire extinguishers,Risk and end of life,1 Within a year,2027,1000,EXT-027;EXT-029,Unfunded,Sample data
+CW-015,B03,Fire,Replace 1 fire indicator panel,Risk and end of life,1 Within a year,2027,49000,FIP-002,Unfunded,Sample data
+CW-016,B03,Hydraulic,Replace 1 thermostatic mixing valve,Risk and end of life,1 Within a year,2027,2000,TMV-005,Funded,Sample data
+CW-017,B01,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,1224000,,Unfunded,Sample data
+CW-018,B01,External fabric,Window and facade repairs,Condition,3 In 4 to 5 years,2030,1391000,,Funded,Sample data
+CW-019,B02,Roof,Roof sheeting and gutters renewal,Condition,3 In 4 to 5 years,2030,169000,,Unfunded,Sample data
+CW-020,B02,External fabric,Window and facade repairs,Condition,3 In 4 to 5 years,2030,153000,,Unfunded,Sample data
+CW-021,B04,Building,"Decking, ramp and stair repairs",Condition,4 In 6 to 10 years,2033,26000,,Funded,Sample data
+CW-022,B05,Building,"Decking, ramp and stair repairs",Condition,4 In 6 to 10 years,2033,21000,,Unfunded,Sample data
+CW-023,B06,Building,"Decking, ramp and stair repairs",Condition,4 In 6 to 10 years,2033,19000,,Funded,Sample data
+CW-024,B07,Building,"Decking, ramp and stair repairs",Condition,4 In 6 to 10 years,2033,29000,,Unfunded,Sample data
+CW-025,B08,Building,"Decking, ramp and stair repairs",Condition,4 In 6 to 10 years,2033,27000,,Unfunded,Sample data
+CW-026,B09,Building,"Decking, ramp and stair repairs",Condition,4 In 6 to 10 years,2033,26000,,Unfunded,Sample data
+CW-027,B01,Accessibility,Accessible toilets and ramp to the north entry,Accessibility,2 In 2 to 3 years,2028,334000,,In design,Sample data
+CW-028,B02,Accessibility,Platform lift to the upper floors,Accessibility,2 In 2 to 3 years,2028,207000,,Unfunded,Sample data

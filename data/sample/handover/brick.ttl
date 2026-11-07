@@ -1,0 +1,2025 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix plotlay: <https://plotlay.io/ns/handover#> .
+@prefix bldg: <urn:plotlay:5a3e0000-0000-4000-8000-000000000001/> .
+
+# Sample campus, building by building (sample data): Brick model from Plotlay, 2026-11-08
+
+bldg:5a3e0000-0000-4000-8000-000000000002 a brick:Site ;
+    rdfs:label "Sample campus, building by building (sample data)" ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000230, bldg:5a3e0000-0000-4000-8000-000000000231, bldg:5a3e0000-0000-4000-8000-000000000232, bldg:5a3e0000-0000-4000-8000-000000000233, bldg:5a3e0000-0000-4000-8000-000000000234, bldg:5a3e0000-0000-4000-8000-000000000235, bldg:5a3e0000-0000-4000-8000-000000000236, bldg:5a3e0000-0000-4000-8000-000000000237, bldg:5a3e0000-0000-4000-8000-000000000238, bldg:5a3e0000-0000-4000-8000-000000000239, bldg:5a3e0000-0000-4000-8000-000000000240, bldg:5a3e0000-0000-4000-8000-000000000241, bldg:5a3e0000-0000-4000-8000-000000000242, bldg:5a3e0000-0000-4000-8000-000000000243 ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000002" .
+
+bldg:5a3e0000-0000-4000-8000-000000000230 a brick:Building ;
+    rdfs:label "B01" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "key:B01" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000230" .
+
+bldg:5a3e0000-0000-4000-8000-000000000231 a brick:Building ;
+    rdfs:label "B02" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    plotlay:id "key:B02" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000231" .
+
+bldg:5a3e0000-0000-4000-8000-000000000232 a brick:Building ;
+    rdfs:label "B03" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    plotlay:id "key:B03" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000232" .
+
+bldg:5a3e0000-0000-4000-8000-000000000233 a brick:Building ;
+    rdfs:label "B04" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    plotlay:id "key:B04" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000233" .
+
+bldg:5a3e0000-0000-4000-8000-000000000234 a brick:Building ;
+    rdfs:label "B05" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    plotlay:id "key:B05" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000234" .
+
+bldg:5a3e0000-0000-4000-8000-000000000235 a brick:Building ;
+    rdfs:label "B06" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    plotlay:id "key:B06" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000235" .
+
+bldg:5a3e0000-0000-4000-8000-000000000236 a brick:Building ;
+    rdfs:label "B07" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    plotlay:id "key:B07" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000236" .
+
+bldg:5a3e0000-0000-4000-8000-000000000237 a brick:Building ;
+    rdfs:label "B08" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    plotlay:id "key:B08" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000237" .
+
+bldg:5a3e0000-0000-4000-8000-000000000238 a brick:Building ;
+    rdfs:label "B09" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    plotlay:id "key:B09" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000238" .
+
+bldg:5a3e0000-0000-4000-8000-000000000239 a brick:Building ;
+    rdfs:label "B10" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:be6554d4-6c34-47fd-90bf-f22dd184fc9b ;
+    plotlay:id "key:B10" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000239" .
+
+bldg:5a3e0000-0000-4000-8000-000000000240 a brick:Building ;
+    rdfs:label "B11" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:70dc128a-f2ad-43c4-bbff-9632f7a28e6f ;
+    plotlay:id "key:B11" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000240" .
+
+bldg:5a3e0000-0000-4000-8000-000000000241 a brick:Building ;
+    rdfs:label "B12" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:425b8dee-ba8d-4863-a59f-1b12d7fe7452 ;
+    plotlay:id "key:B12" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000241" .
+
+bldg:5a3e0000-0000-4000-8000-000000000242 a brick:Building ;
+    rdfs:label "B13" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:7892aef3-fd2e-4f31-8182-66ac8569b91c ;
+    plotlay:id "key:B13" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000242" .
+
+bldg:5a3e0000-0000-4000-8000-000000000243 a brick:Building ;
+    rdfs:label "Grounds" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000002 ;
+    brick:hasPart bldg:36f44eae-6c82-4618-b1fc-e1daf9ea10bd ;
+    plotlay:id "grounds" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000243" .
+
+bldg:5a3e0000-0000-4000-8000-000000000003 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000230 ;
+    plotlay:id "ground" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000003" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000231 ;
+    plotlay:id "ground" ;
+    plotlay:guid "f466da9b-9d42-485c-a510-d8d5bbe333a2" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000232 ;
+    plotlay:id "ground" ;
+    plotlay:guid "7aec231f-51d7-4415-b6a1-6d96f8aca558" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000233 ;
+    plotlay:id "ground" ;
+    plotlay:guid "64be52c8-48f0-40b7-887f-827b91b5ccd3" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:75139421-2bff-4fbd-977d-b2032e003e19 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000234 ;
+    plotlay:id "ground" ;
+    plotlay:guid "75139421-2bff-4fbd-977d-b2032e003e19" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000235 ;
+    plotlay:id "ground" ;
+    plotlay:guid "c3f4660b-9d71-411b-9276-9b3770529cd7" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000236 ;
+    plotlay:id "ground" ;
+    plotlay:guid "5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000237 ;
+    plotlay:id "ground" ;
+    plotlay:guid "0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000238 ;
+    plotlay:id "ground" ;
+    plotlay:guid "e556dd09-8024-4bfc-8ccf-03819688b7a2" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:be6554d4-6c34-47fd-90bf-f22dd184fc9b a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000239 ;
+    plotlay:id "ground" ;
+    plotlay:guid "be6554d4-6c34-47fd-90bf-f22dd184fc9b" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:70dc128a-f2ad-43c4-bbff-9632f7a28e6f a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000240 ;
+    plotlay:id "ground" ;
+    plotlay:guid "70dc128a-f2ad-43c4-bbff-9632f7a28e6f" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:425b8dee-ba8d-4863-a59f-1b12d7fe7452 a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000241 ;
+    plotlay:id "ground" ;
+    plotlay:guid "425b8dee-ba8d-4863-a59f-1b12d7fe7452" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:7892aef3-fd2e-4f31-8182-66ac8569b91c a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000242 ;
+    plotlay:id "ground" ;
+    plotlay:guid "7892aef3-fd2e-4f31-8182-66ac8569b91c" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:36f44eae-6c82-4618-b1fc-e1daf9ea10bd a brick:Floor ;
+    rdfs:label "Ground floor" ;
+    brick:isPartOf bldg:5a3e0000-0000-4000-8000-000000000243 ;
+    plotlay:id "ground" ;
+    plotlay:guid "36f44eae-6c82-4618-b1fc-e1daf9ea10bd" ;
+    plotlay:elevation "0"^^xsd:decimal .
+
+bldg:76d2c42e-5541-4e35-b381-038a431c9776 a brick:Electrical_System ;
+    rdfs:label "Electrical system" ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000004, bldg:5a3e0000-0000-4000-8000-000000000005, bldg:5a3e0000-0000-4000-8000-000000000006, bldg:5a3e0000-0000-4000-8000-000000000007, bldg:5a3e0000-0000-4000-8000-000000000008, bldg:5a3e0000-0000-4000-8000-000000000009, bldg:5a3e0000-0000-4000-8000-000000000010, bldg:5a3e0000-0000-4000-8000-000000000111, bldg:5a3e0000-0000-4000-8000-000000000112, bldg:5a3e0000-0000-4000-8000-000000000113, bldg:5a3e0000-0000-4000-8000-000000000114, bldg:5a3e0000-0000-4000-8000-000000000115, bldg:5a3e0000-0000-4000-8000-000000000139, bldg:5a3e0000-0000-4000-8000-000000000140, bldg:5a3e0000-0000-4000-8000-000000000141, bldg:5a3e0000-0000-4000-8000-000000000188, bldg:5a3e0000-0000-4000-8000-000000000189, bldg:5a3e0000-0000-4000-8000-000000000195, bldg:5a3e0000-0000-4000-8000-000000000201, bldg:5a3e0000-0000-4000-8000-000000000207, bldg:5a3e0000-0000-4000-8000-000000000213, bldg:5a3e0000-0000-4000-8000-000000000219, bldg:5a3e0000-0000-4000-8000-000000000225 ;
+    plotlay:guid "76d2c42e-5541-4e35-b381-038a431c9776" .
+
+bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd a brick:HVAC_System ;
+    rdfs:label "BMS system" ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000011, bldg:5a3e0000-0000-4000-8000-000000000093, bldg:5a3e0000-0000-4000-8000-000000000116, bldg:5a3e0000-0000-4000-8000-000000000142, bldg:5a3e0000-0000-4000-8000-000000000179, bldg:5a3e0000-0000-4000-8000-000000000190, bldg:5a3e0000-0000-4000-8000-000000000196, bldg:5a3e0000-0000-4000-8000-000000000202, bldg:5a3e0000-0000-4000-8000-000000000208, bldg:5a3e0000-0000-4000-8000-000000000214, bldg:5a3e0000-0000-4000-8000-000000000220 ;
+    plotlay:guid "d9604a8d-6116-4941-80ca-5553cb1e23cd" .
+
+bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 a brick:Hot_Water_System ;
+    rdfs:label "Hydraulic system" ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000012, bldg:5a3e0000-0000-4000-8000-000000000094, bldg:5a3e0000-0000-4000-8000-000000000095, bldg:5a3e0000-0000-4000-8000-000000000096, bldg:5a3e0000-0000-4000-8000-000000000097, bldg:5a3e0000-0000-4000-8000-000000000098, bldg:5a3e0000-0000-4000-8000-000000000099, bldg:5a3e0000-0000-4000-8000-000000000100, bldg:5a3e0000-0000-4000-8000-000000000117, bldg:5a3e0000-0000-4000-8000-000000000136, bldg:5a3e0000-0000-4000-8000-000000000143, bldg:5a3e0000-0000-4000-8000-000000000180, bldg:5a3e0000-0000-4000-8000-000000000181, bldg:5a3e0000-0000-4000-8000-000000000182 ;
+    plotlay:guid "592af21d-23fb-43cd-a117-7aa0190b0f54" .
+
+bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 a brick:Fire_Safety_System ;
+    rdfs:label "Fire system" ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000013, bldg:5a3e0000-0000-4000-8000-000000000014, bldg:5a3e0000-0000-4000-8000-000000000015, bldg:5a3e0000-0000-4000-8000-000000000016, bldg:5a3e0000-0000-4000-8000-000000000017, bldg:5a3e0000-0000-4000-8000-000000000018, bldg:5a3e0000-0000-4000-8000-000000000019, bldg:5a3e0000-0000-4000-8000-000000000020, bldg:5a3e0000-0000-4000-8000-000000000021, bldg:5a3e0000-0000-4000-8000-000000000022, bldg:5a3e0000-0000-4000-8000-000000000023, bldg:5a3e0000-0000-4000-8000-000000000024, bldg:5a3e0000-0000-4000-8000-000000000025, bldg:5a3e0000-0000-4000-8000-000000000026, bldg:5a3e0000-0000-4000-8000-000000000027, bldg:5a3e0000-0000-4000-8000-000000000028, bldg:5a3e0000-0000-4000-8000-000000000029, bldg:5a3e0000-0000-4000-8000-000000000030, bldg:5a3e0000-0000-4000-8000-000000000031, bldg:5a3e0000-0000-4000-8000-000000000032, bldg:5a3e0000-0000-4000-8000-000000000033, bldg:5a3e0000-0000-4000-8000-000000000034, bldg:5a3e0000-0000-4000-8000-000000000035, bldg:5a3e0000-0000-4000-8000-000000000036, bldg:5a3e0000-0000-4000-8000-000000000037, bldg:5a3e0000-0000-4000-8000-000000000038, bldg:5a3e0000-0000-4000-8000-000000000039, bldg:5a3e0000-0000-4000-8000-000000000040, bldg:5a3e0000-0000-4000-8000-000000000041, bldg:5a3e0000-0000-4000-8000-000000000042, bldg:5a3e0000-0000-4000-8000-000000000043, bldg:5a3e0000-0000-4000-8000-000000000044, bldg:5a3e0000-0000-4000-8000-000000000045, bldg:5a3e0000-0000-4000-8000-000000000046, bldg:5a3e0000-0000-4000-8000-000000000047, bldg:5a3e0000-0000-4000-8000-000000000048, bldg:5a3e0000-0000-4000-8000-000000000049, bldg:5a3e0000-0000-4000-8000-000000000050, bldg:5a3e0000-0000-4000-8000-000000000051, bldg:5a3e0000-0000-4000-8000-000000000052, bldg:5a3e0000-0000-4000-8000-000000000053, bldg:5a3e0000-0000-4000-8000-000000000054, bldg:5a3e0000-0000-4000-8000-000000000055, bldg:5a3e0000-0000-4000-8000-000000000056, bldg:5a3e0000-0000-4000-8000-000000000057, bldg:5a3e0000-0000-4000-8000-000000000058, bldg:5a3e0000-0000-4000-8000-000000000059, bldg:5a3e0000-0000-4000-8000-000000000060, bldg:5a3e0000-0000-4000-8000-000000000061, bldg:5a3e0000-0000-4000-8000-000000000062, bldg:5a3e0000-0000-4000-8000-000000000063, bldg:5a3e0000-0000-4000-8000-000000000064, bldg:5a3e0000-0000-4000-8000-000000000065, bldg:5a3e0000-0000-4000-8000-000000000066, bldg:5a3e0000-0000-4000-8000-000000000067, bldg:5a3e0000-0000-4000-8000-000000000068, bldg:5a3e0000-0000-4000-8000-000000000069, bldg:5a3e0000-0000-4000-8000-000000000070, bldg:5a3e0000-0000-4000-8000-000000000071, bldg:5a3e0000-0000-4000-8000-000000000072, bldg:5a3e0000-0000-4000-8000-000000000073, bldg:5a3e0000-0000-4000-8000-000000000074, bldg:5a3e0000-0000-4000-8000-000000000075, bldg:5a3e0000-0000-4000-8000-000000000076, bldg:5a3e0000-0000-4000-8000-000000000077, bldg:5a3e0000-0000-4000-8000-000000000078, bldg:5a3e0000-0000-4000-8000-000000000079, bldg:5a3e0000-0000-4000-8000-000000000080, bldg:5a3e0000-0000-4000-8000-000000000081, bldg:5a3e0000-0000-4000-8000-000000000118, bldg:5a3e0000-0000-4000-8000-000000000119, bldg:5a3e0000-0000-4000-8000-000000000120, bldg:5a3e0000-0000-4000-8000-000000000121, bldg:5a3e0000-0000-4000-8000-000000000122, bldg:5a3e0000-0000-4000-8000-000000000123, bldg:5a3e0000-0000-4000-8000-000000000124, bldg:5a3e0000-0000-4000-8000-000000000125, bldg:5a3e0000-0000-4000-8000-000000000126, bldg:5a3e0000-0000-4000-8000-000000000127, bldg:5a3e0000-0000-4000-8000-000000000128, bldg:5a3e0000-0000-4000-8000-000000000129, bldg:5a3e0000-0000-4000-8000-000000000130, bldg:5a3e0000-0000-4000-8000-000000000131, bldg:5a3e0000-0000-4000-8000-000000000132, bldg:5a3e0000-0000-4000-8000-000000000144, bldg:5a3e0000-0000-4000-8000-000000000145, bldg:5a3e0000-0000-4000-8000-000000000146, bldg:5a3e0000-0000-4000-8000-000000000147, bldg:5a3e0000-0000-4000-8000-000000000148, bldg:5a3e0000-0000-4000-8000-000000000149, bldg:5a3e0000-0000-4000-8000-000000000150, bldg:5a3e0000-0000-4000-8000-000000000151, bldg:5a3e0000-0000-4000-8000-000000000152, bldg:5a3e0000-0000-4000-8000-000000000153, bldg:5a3e0000-0000-4000-8000-000000000154, bldg:5a3e0000-0000-4000-8000-000000000155, bldg:5a3e0000-0000-4000-8000-000000000156, bldg:5a3e0000-0000-4000-8000-000000000157, bldg:5a3e0000-0000-4000-8000-000000000158, bldg:5a3e0000-0000-4000-8000-000000000159, bldg:5a3e0000-0000-4000-8000-000000000160, bldg:5a3e0000-0000-4000-8000-000000000161, bldg:5a3e0000-0000-4000-8000-000000000162, bldg:5a3e0000-0000-4000-8000-000000000163, bldg:5a3e0000-0000-4000-8000-000000000164, bldg:5a3e0000-0000-4000-8000-000000000165, bldg:5a3e0000-0000-4000-8000-000000000166, bldg:5a3e0000-0000-4000-8000-000000000167, bldg:5a3e0000-0000-4000-8000-000000000168, bldg:5a3e0000-0000-4000-8000-000000000169, bldg:5a3e0000-0000-4000-8000-000000000170, bldg:5a3e0000-0000-4000-8000-000000000171, bldg:5a3e0000-0000-4000-8000-000000000191, bldg:5a3e0000-0000-4000-8000-000000000192, bldg:5a3e0000-0000-4000-8000-000000000193, bldg:5a3e0000-0000-4000-8000-000000000197, bldg:5a3e0000-0000-4000-8000-000000000198, bldg:5a3e0000-0000-4000-8000-000000000199, bldg:5a3e0000-0000-4000-8000-000000000203, bldg:5a3e0000-0000-4000-8000-000000000204, bldg:5a3e0000-0000-4000-8000-000000000205, bldg:5a3e0000-0000-4000-8000-000000000209, bldg:5a3e0000-0000-4000-8000-000000000210, bldg:5a3e0000-0000-4000-8000-000000000211, bldg:5a3e0000-0000-4000-8000-000000000215, bldg:5a3e0000-0000-4000-8000-000000000216, bldg:5a3e0000-0000-4000-8000-000000000217, bldg:5a3e0000-0000-4000-8000-000000000221, bldg:5a3e0000-0000-4000-8000-000000000222, bldg:5a3e0000-0000-4000-8000-000000000223, bldg:5a3e0000-0000-4000-8000-000000000226, bldg:5a3e0000-0000-4000-8000-000000000227, bldg:5a3e0000-0000-4000-8000-000000000228, bldg:5a3e0000-0000-4000-8000-000000000229 ;
+    plotlay:guid "75b6976d-3455-4a66-b465-ecdf09a3b730" .
+
+bldg:58c742ed-5f63-43b7-907e-7bbef94e416f a brick:HVAC_System ;
+    rdfs:label "HVAC system" ;
+    brick:hasPart bldg:5a3e0000-0000-4000-8000-000000000082, bldg:5a3e0000-0000-4000-8000-000000000083, bldg:5a3e0000-0000-4000-8000-000000000084, bldg:5a3e0000-0000-4000-8000-000000000085, bldg:5a3e0000-0000-4000-8000-000000000086, bldg:5a3e0000-0000-4000-8000-000000000087, bldg:5a3e0000-0000-4000-8000-000000000088, bldg:5a3e0000-0000-4000-8000-000000000089, bldg:5a3e0000-0000-4000-8000-000000000090, bldg:5a3e0000-0000-4000-8000-000000000091, bldg:5a3e0000-0000-4000-8000-000000000092, bldg:5a3e0000-0000-4000-8000-000000000133, bldg:5a3e0000-0000-4000-8000-000000000134, bldg:5a3e0000-0000-4000-8000-000000000135, bldg:5a3e0000-0000-4000-8000-000000000172, bldg:5a3e0000-0000-4000-8000-000000000173, bldg:5a3e0000-0000-4000-8000-000000000174, bldg:5a3e0000-0000-4000-8000-000000000175, bldg:5a3e0000-0000-4000-8000-000000000176, bldg:5a3e0000-0000-4000-8000-000000000177, bldg:5a3e0000-0000-4000-8000-000000000178, bldg:5a3e0000-0000-4000-8000-000000000194, bldg:5a3e0000-0000-4000-8000-000000000200, bldg:5a3e0000-0000-4000-8000-000000000206, bldg:5a3e0000-0000-4000-8000-000000000212, bldg:5a3e0000-0000-4000-8000-000000000218, bldg:5a3e0000-0000-4000-8000-000000000224 ;
+    plotlay:guid "58c742ed-5f63-43b7-907e-7bbef94e416f" .
+
+bldg:5a3e0000-0000-4000-8000-000000000004 a brick:Switchgear ;
+    rdfs:label "MSB-001 Main switchboard, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "MSB-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000004" ;
+    plotlay:type "msb" .
+
+bldg:5a3e0000-0000-4000-8000-000000000005 a brick:Breaker_Panel ;
+    rdfs:label "DB-001 Distribution board, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000005" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000006 a brick:Breaker_Panel ;
+    rdfs:label "DB-002 Distribution board, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000006" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000007 a brick:Breaker_Panel ;
+    rdfs:label "DB-003 Distribution board, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000007" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000008 a brick:Breaker_Panel ;
+    rdfs:label "DB-004 Distribution board, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000008" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000009 a brick:Breaker_Panel ;
+    rdfs:label "DB-005 Distribution board, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000009" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000010 a brick:Breaker_Panel ;
+    rdfs:label "DB-006 Distribution board, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000010" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000011 a brick:Electrical_Meter ;
+    rdfs:label "EM-001 Electricity meter, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000011" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000012 a brick:Building_Water_Meter ;
+    rdfs:label "WM-001 Water meter, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "WM-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000012" ;
+    plotlay:type "water_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000013 a brick:Fire_Alarm_Control_Panel ;
+    rdfs:label "FIP-001 Fire indicator panel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FIP-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000013" ;
+    plotlay:type "fip" .
+
+bldg:5a3e0000-0000-4000-8000-000000000014 a brick:Fire_Control_Panel ;
+    rdfs:label "MECP-001 Master emergency control panel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "MECP-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000014" ;
+    plotlay:type "ewis_panel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000015 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-001 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000015" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000016 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-002 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000016" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000017 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-003 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000017" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000018 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-004 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000018" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000019 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-005 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000019" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000020 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-006 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000020" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000021 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-007 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000021" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000022 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-008 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000022" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000023 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-009 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000023" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000024 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-010 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000024" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000025 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-011 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-011" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000025" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000026 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-012 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-012" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000026" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000027 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-013 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-013" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000027" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000028 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-014 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-014" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000028" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000029 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-015 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-015" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000029" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000030 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-016 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-016" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000030" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000031 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-017 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-017" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000031" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000032 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-018 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-018" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000032" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000033 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-019 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-019" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000033" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000034 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-020 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-020" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000034" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000035 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-021 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-021" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000035" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000036 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-022 Fire extinguisher, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-022" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000036" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000037 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FB-001 Fire blanket, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FB-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000037" ;
+    plotlay:type "fire_blanket" .
+
+bldg:5a3e0000-0000-4000-8000-000000000038 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-001 Internal fire hydrant, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000038" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000039 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-002 Internal fire hydrant, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000039" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000040 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-003 Internal fire hydrant, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000040" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000041 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-004 Internal fire hydrant, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000041" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000042 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-001 Fire hose reel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000042" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000043 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-002 Fire hose reel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000043" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000044 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-003 Fire hose reel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000044" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000045 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-004 Fire hose reel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000045" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000046 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-005 Fire hose reel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000046" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000047 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-006 Fire hose reel, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000047" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000048 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-001 Fire door, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000048" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000049 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-002 Fire door, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000049" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000050 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-003 Fire door, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000050" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000051 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-004 Fire door, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000051" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000052 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-005 Fire door, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000052" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000053 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-006 Fire door, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000053" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000054 a brick:Luminaire ;
+    rdfs:label "EXL-001 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000054" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000055 a brick:Luminaire ;
+    rdfs:label "EXL-002 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000055" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000056 a brick:Luminaire ;
+    rdfs:label "EXL-003 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000056" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000057 a brick:Luminaire ;
+    rdfs:label "EXL-004 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000057" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000058 a brick:Luminaire ;
+    rdfs:label "EXL-005 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000058" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000059 a brick:Luminaire ;
+    rdfs:label "EXL-006 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000059" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000060 a brick:Luminaire ;
+    rdfs:label "EXL-007 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000060" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000061 a brick:Luminaire ;
+    rdfs:label "EXL-008 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000061" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000062 a brick:Luminaire ;
+    rdfs:label "EXL-009 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000062" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000063 a brick:Luminaire ;
+    rdfs:label "EXL-010 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000063" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000064 a brick:Luminaire ;
+    rdfs:label "EXL-011 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-011" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000064" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000065 a brick:Luminaire ;
+    rdfs:label "EXL-012 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-012" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000065" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000066 a brick:Luminaire ;
+    rdfs:label "EXL-013 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-013" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000066" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000067 a brick:Luminaire ;
+    rdfs:label "EXL-014 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-014" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000067" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000068 a brick:Luminaire ;
+    rdfs:label "EXL-015 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-015" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000068" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000069 a brick:Luminaire ;
+    rdfs:label "EXL-016 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-016" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000069" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000070 a brick:Luminaire ;
+    rdfs:label "EXL-017 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-017" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000070" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000071 a brick:Luminaire ;
+    rdfs:label "EXL-018 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-018" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000071" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000072 a brick:Luminaire ;
+    rdfs:label "EXL-019 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-019" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000072" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000073 a brick:Luminaire ;
+    rdfs:label "EXL-020 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-020" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000073" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000074 a brick:Luminaire ;
+    rdfs:label "EXL-021 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-021" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000074" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000075 a brick:Luminaire ;
+    rdfs:label "EXL-022 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-022" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000075" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000076 a brick:Luminaire ;
+    rdfs:label "EXL-023 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-023" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000076" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000077 a brick:Luminaire ;
+    rdfs:label "EXL-024 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-024" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000077" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000078 a brick:Luminaire ;
+    rdfs:label "EXL-025 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-025" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000078" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000079 a brick:Luminaire ;
+    rdfs:label "EXL-026 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-026" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000079" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000080 a brick:Luminaire ;
+    rdfs:label "EXL-027 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-027" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000080" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000081 a brick:Luminaire ;
+    rdfs:label "EXL-028 Combination exit and emergency light, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-028" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000081" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000082 a brick:AHU ;
+    rdfs:label "AHU-001 Air handling unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "AHU-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000082" ;
+    plotlay:type "ahu" .
+
+bldg:5a3e0000-0000-4000-8000-000000000083 a brick:AHU ;
+    rdfs:label "AHU-002 Air handling unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "AHU-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000083" ;
+    plotlay:type "ahu" .
+
+bldg:5a3e0000-0000-4000-8000-000000000084 a brick:Boiler ;
+    rdfs:label "BLR-001 Boiler, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "BLR-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000084" ;
+    plotlay:type "boiler" .
+
+bldg:5a3e0000-0000-4000-8000-000000000085 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-001 Split system outdoor unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000085" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000086 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-002 Split system outdoor unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000086" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000087 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-003 Split system outdoor unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000087" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000088 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-004 Split system outdoor unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000088" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000089 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-005 Split system outdoor unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000089" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000090 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-006 Split system outdoor unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000090" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000091 a brick:Fan ;
+    rdfs:label "EF-001 Fan, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "EF-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000091" ;
+    plotlay:type "fan" .
+
+bldg:5a3e0000-0000-4000-8000-000000000092 a brick:Fan ;
+    rdfs:label "EF-002 Fan, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "EF-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000092" ;
+    plotlay:type "fan" .
+
+bldg:5a3e0000-0000-4000-8000-000000000093 a brick:Motor_Control_Center ;
+    rdfs:label "MSSB-001 Mechanical services switchboard, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "MSSB-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000093" ;
+    plotlay:type "bms_panel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000094 a brick:Water_Heater ;
+    rdfs:label "HWU-001 Hot water unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "HWU-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000094" ;
+    plotlay:type "hot_water" .
+
+bldg:5a3e0000-0000-4000-8000-000000000095 a brick:Water_Heater ;
+    rdfs:label "HWU-002 Hot water unit, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "HWU-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000095" ;
+    plotlay:type "hot_water" .
+
+bldg:5a3e0000-0000-4000-8000-000000000096 a brick:Thermostatic_Mixing_Valve ;
+    rdfs:label "TMV-001 Thermostatic mixing valve, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "TMV-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000096" ;
+    plotlay:type "tmv" .
+
+bldg:5a3e0000-0000-4000-8000-000000000097 a brick:Thermostatic_Mixing_Valve ;
+    rdfs:label "TMV-002 Thermostatic mixing valve, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "TMV-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000097" ;
+    plotlay:type "tmv" .
+
+bldg:5a3e0000-0000-4000-8000-000000000098 a brick:Thermostatic_Mixing_Valve ;
+    rdfs:label "TMV-003 Thermostatic mixing valve, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "TMV-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000098" ;
+    plotlay:type "tmv" .
+
+bldg:5a3e0000-0000-4000-8000-000000000099 a brick:Thermostatic_Mixing_Valve ;
+    rdfs:label "TMV-004 Thermostatic mixing valve, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "TMV-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000099" ;
+    plotlay:type "tmv" .
+
+bldg:5a3e0000-0000-4000-8000-000000000100 a brick:Backflow_Preventer_Valve ;
+    rdfs:label "BFP-001 Backflow prevention device, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "BFP-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000100" ;
+    plotlay:type "backflow" .
+
+bldg:5a3e0000-0000-4000-8000-000000000101 a brick:Elevator ;
+    rdfs:label "LIFT-001 Lift, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "LIFT-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000101" ;
+    plotlay:type "lift" .
+
+bldg:5a3e0000-0000-4000-8000-000000000102 a brick:Safety_Equipment ;
+    rdfs:label "RAP-001 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000102" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000103 a brick:Safety_Equipment ;
+    rdfs:label "RAP-002 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000103" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000104 a brick:Safety_Equipment ;
+    rdfs:label "RAP-003 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000104" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000105 a brick:Safety_Equipment ;
+    rdfs:label "RAP-004 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000105" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000106 a brick:Safety_Equipment ;
+    rdfs:label "RAP-005 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000106" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000107 a brick:Safety_Equipment ;
+    rdfs:label "RAP-006 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000107" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000108 a brick:Safety_Equipment ;
+    rdfs:label "RAP-007 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000108" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000109 a brick:Safety_Equipment ;
+    rdfs:label "RAP-008 Roof anchor point, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "RAP-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000109" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000110 a brick:Safety_Equipment ;
+    rdfs:label "SL-001 Static line, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    plotlay:id "SL-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000110" ;
+    plotlay:type "static_line" .
+
+bldg:5a3e0000-0000-4000-8000-000000000111 a brick:Inverter ;
+    rdfs:label "INV-001 Solar inverter, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "INV-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000111" ;
+    plotlay:type "solar_inverter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000112 a brick:Electrical_Equipment ;
+    rdfs:label "LP-001 Lightning protection, B01" ;
+    brick:hasLocation bldg:5a3e0000-0000-4000-8000-000000000003 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "LP-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000112" ;
+    plotlay:type "lightning" .
+
+bldg:5a3e0000-0000-4000-8000-000000000113 a brick:Breaker_Panel ;
+    rdfs:label "DB-007 Distribution board, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000113" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000114 a brick:Breaker_Panel ;
+    rdfs:label "DB-008 Distribution board, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000114" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000115 a brick:Breaker_Panel ;
+    rdfs:label "DB-009 Distribution board, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000115" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000116 a brick:Electrical_Meter ;
+    rdfs:label "EM-002 Electricity meter, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000116" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000117 a brick:Building_Water_Meter ;
+    rdfs:label "WM-002 Water meter, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "WM-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000117" ;
+    plotlay:type "water_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000118 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-023 Fire extinguisher, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-023" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000118" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000119 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-024 Fire extinguisher, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-024" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000119" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000120 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-025 Fire extinguisher, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-025" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000120" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000121 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-026 Fire extinguisher, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-026" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000121" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000122 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-005 Internal fire hydrant, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000122" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000123 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-007 Fire hose reel, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000123" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000124 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-008 Fire hose reel, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000124" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000125 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-007 Fire door, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000125" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000126 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-008 Fire door, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000126" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000127 a brick:Luminaire ;
+    rdfs:label "EXL-029 Combination exit and emergency light, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-029" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000127" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000128 a brick:Luminaire ;
+    rdfs:label "EXL-030 Combination exit and emergency light, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-030" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000128" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000129 a brick:Luminaire ;
+    rdfs:label "EXL-031 Combination exit and emergency light, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-031" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000129" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000130 a brick:Luminaire ;
+    rdfs:label "EXL-032 Combination exit and emergency light, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-032" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000130" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000131 a brick:Luminaire ;
+    rdfs:label "EXL-033 Combination exit and emergency light, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-033" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000131" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000132 a brick:Luminaire ;
+    rdfs:label "EXL-034 Combination exit and emergency light, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-034" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000132" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000133 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-007 Split system outdoor unit, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000133" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000134 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-008 Split system outdoor unit, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000134" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000135 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-009 Split system outdoor unit, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000135" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000136 a brick:Water_Heater ;
+    rdfs:label "HWU-003 Hot water unit, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "HWU-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000136" ;
+    plotlay:type "hot_water" .
+
+bldg:5a3e0000-0000-4000-8000-000000000137 a brick:Safety_Equipment ;
+    rdfs:label "RAP-009 Roof anchor point, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    plotlay:id "RAP-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000137" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000138 a brick:Safety_Equipment ;
+    rdfs:label "RAP-010 Roof anchor point, B02" ;
+    brick:hasLocation bldg:f466da9b-9d42-485c-a510-d8d5bbe333a2 ;
+    plotlay:id "RAP-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000138" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000139 a brick:Breaker_Panel ;
+    rdfs:label "DB-010 Distribution board, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000139" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000140 a brick:Breaker_Panel ;
+    rdfs:label "DB-011 Distribution board, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-011" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000140" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000141 a brick:Breaker_Panel ;
+    rdfs:label "DB-012 Distribution board, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-012" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000141" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000142 a brick:Electrical_Meter ;
+    rdfs:label "EM-003 Electricity meter, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000142" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000143 a brick:Building_Water_Meter ;
+    rdfs:label "WM-003 Water meter, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "WM-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000143" ;
+    plotlay:type "water_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000144 a brick:Fire_Alarm_Control_Panel ;
+    rdfs:label "FIP-002 Fire indicator panel, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FIP-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000144" ;
+    plotlay:type "fip" .
+
+bldg:5a3e0000-0000-4000-8000-000000000145 a brick:Fire_Control_Panel ;
+    rdfs:label "MECP-002 Master emergency control panel, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "MECP-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000145" ;
+    plotlay:type "ewis_panel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000146 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-027 Fire extinguisher, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-027" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000146" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000147 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-028 Fire extinguisher, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-028" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000147" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000148 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-029 Fire extinguisher, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-029" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000148" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000149 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-030 Fire extinguisher, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-030" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000149" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000150 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-031 Fire extinguisher, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-031" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000150" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000151 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-032 Fire extinguisher, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-032" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000151" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000152 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FB-002 Fire blanket, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FB-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000152" ;
+    plotlay:type "fire_blanket" .
+
+bldg:5a3e0000-0000-4000-8000-000000000153 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FB-003 Fire blanket, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FB-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000153" ;
+    plotlay:type "fire_blanket" .
+
+bldg:5a3e0000-0000-4000-8000-000000000154 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-006 Internal fire hydrant, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000154" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000155 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FH-007 Internal fire hydrant, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FH-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000155" ;
+    plotlay:type "hydrant_internal" .
+
+bldg:5a3e0000-0000-4000-8000-000000000156 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-009 Fire hose reel, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000156" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000157 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FHR-010 Fire hose reel, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FHR-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000157" ;
+    plotlay:type "hose_reel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000158 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-009 Fire door, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000158" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000159 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-010 Fire door, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000159" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000160 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-011 Fire door, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-011" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000160" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000161 a brick:Fire_Safety_Equipment ;
+    rdfs:label "FD-012 Fire door, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "FD-012" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000161" ;
+    plotlay:type "fire_door" .
+
+bldg:5a3e0000-0000-4000-8000-000000000162 a brick:Luminaire ;
+    rdfs:label "EXL-035 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-035" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000162" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000163 a brick:Luminaire ;
+    rdfs:label "EXL-036 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-036" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000163" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000164 a brick:Luminaire ;
+    rdfs:label "EXL-037 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-037" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000164" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000165 a brick:Luminaire ;
+    rdfs:label "EXL-038 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-038" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000165" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000166 a brick:Luminaire ;
+    rdfs:label "EXL-039 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-039" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000166" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000167 a brick:Luminaire ;
+    rdfs:label "EXL-040 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-040" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000167" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000168 a brick:Luminaire ;
+    rdfs:label "EXL-041 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-041" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000168" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000169 a brick:Luminaire ;
+    rdfs:label "EXL-042 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-042" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000169" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000170 a brick:Luminaire ;
+    rdfs:label "EXL-043 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-043" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000170" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000171 a brick:Luminaire ;
+    rdfs:label "EXL-044 Combination exit and emergency light, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-044" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000171" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000172 a brick:AHU ;
+    rdfs:label "AHU-003 Air handling unit, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "AHU-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000172" ;
+    plotlay:type "ahu" .
+
+bldg:5a3e0000-0000-4000-8000-000000000173 a brick:AHU ;
+    rdfs:label "AHU-004 Air handling unit, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "AHU-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000173" ;
+    plotlay:type "ahu" .
+
+bldg:5a3e0000-0000-4000-8000-000000000174 a brick:Chiller ;
+    rdfs:label "CH-001 Chiller, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "CH-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000174" ;
+    plotlay:type "chiller" .
+
+bldg:5a3e0000-0000-4000-8000-000000000175 a brick:HVAC_Equipment ;
+    rdfs:label "VRF-001 VRF outdoor unit, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "VRF-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000175" ;
+    plotlay:type "vrf_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000176 a brick:HVAC_Equipment ;
+    rdfs:label "VRF-002 VRF outdoor unit, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "VRF-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000176" ;
+    plotlay:type "vrf_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000177 a brick:Fan ;
+    rdfs:label "EF-003 Fan, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "EF-003" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000177" ;
+    plotlay:type "fan" .
+
+bldg:5a3e0000-0000-4000-8000-000000000178 a brick:Fan ;
+    rdfs:label "EF-004 Fan, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "EF-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000178" ;
+    plotlay:type "fan" .
+
+bldg:5a3e0000-0000-4000-8000-000000000179 a brick:Motor_Control_Center ;
+    rdfs:label "MSSB-002 Mechanical services switchboard, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "MSSB-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000179" ;
+    plotlay:type "bms_panel" .
+
+bldg:5a3e0000-0000-4000-8000-000000000180 a brick:Water_Heater ;
+    rdfs:label "HWU-004 Hot water unit, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "HWU-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000180" ;
+    plotlay:type "hot_water" .
+
+bldg:5a3e0000-0000-4000-8000-000000000181 a brick:Thermostatic_Mixing_Valve ;
+    rdfs:label "TMV-005 Thermostatic mixing valve, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "TMV-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000181" ;
+    plotlay:type "tmv" .
+
+bldg:5a3e0000-0000-4000-8000-000000000182 a brick:Thermostatic_Mixing_Valve ;
+    rdfs:label "TMV-006 Thermostatic mixing valve, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:592af21d-23fb-43cd-a117-7aa0190b0f54 ;
+    plotlay:id "TMV-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000182" ;
+    plotlay:type "tmv" .
+
+bldg:5a3e0000-0000-4000-8000-000000000183 a brick:Elevator ;
+    rdfs:label "LIFT-002 Lift, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    plotlay:id "LIFT-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000183" ;
+    plotlay:type "lift" .
+
+bldg:5a3e0000-0000-4000-8000-000000000184 a brick:Safety_Equipment ;
+    rdfs:label "RAP-011 Roof anchor point, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    plotlay:id "RAP-011" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000184" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000185 a brick:Safety_Equipment ;
+    rdfs:label "RAP-012 Roof anchor point, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    plotlay:id "RAP-012" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000185" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000186 a brick:Safety_Equipment ;
+    rdfs:label "RAP-013 Roof anchor point, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    plotlay:id "RAP-013" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000186" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000187 a brick:Safety_Equipment ;
+    rdfs:label "RAP-014 Roof anchor point, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    plotlay:id "RAP-014" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000187" ;
+    plotlay:type "roof_anchor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000188 a brick:Inverter ;
+    rdfs:label "INV-002 Solar inverter, B03" ;
+    brick:hasLocation bldg:7aec231f-51d7-4415-b6a1-6d96f8aca558 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "INV-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000188" ;
+    plotlay:type "solar_inverter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000189 a brick:Breaker_Panel ;
+    rdfs:label "DB-013 Distribution board, B04" ;
+    brick:hasLocation bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-013" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000189" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000190 a brick:Electrical_Meter ;
+    rdfs:label "EM-004 Electricity meter, B04" ;
+    brick:hasLocation bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-004" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000190" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000191 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-033 Fire extinguisher, B04" ;
+    brick:hasLocation bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-033" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000191" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000192 a brick:Luminaire ;
+    rdfs:label "EXL-045 Combination exit and emergency light, B04" ;
+    brick:hasLocation bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-045" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000192" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000193 a brick:Luminaire ;
+    rdfs:label "EXL-046 Combination exit and emergency light, B04" ;
+    brick:hasLocation bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-046" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000193" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000194 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-010 Split system outdoor unit, B04" ;
+    brick:hasLocation bldg:64be52c8-48f0-40b7-887f-827b91b5ccd3 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-010" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000194" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000195 a brick:Breaker_Panel ;
+    rdfs:label "DB-014 Distribution board, B05" ;
+    brick:hasLocation bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-014" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000195" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000196 a brick:Electrical_Meter ;
+    rdfs:label "EM-005 Electricity meter, B05" ;
+    brick:hasLocation bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-005" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000196" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000197 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-034 Fire extinguisher, B05" ;
+    brick:hasLocation bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-034" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000197" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000198 a brick:Luminaire ;
+    rdfs:label "EXL-047 Combination exit and emergency light, B05" ;
+    brick:hasLocation bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-047" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000198" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000199 a brick:Luminaire ;
+    rdfs:label "EXL-048 Combination exit and emergency light, B05" ;
+    brick:hasLocation bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-048" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000199" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000200 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-011 Split system outdoor unit, B05" ;
+    brick:hasLocation bldg:75139421-2bff-4fbd-977d-b2032e003e19 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-011" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000200" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000201 a brick:Breaker_Panel ;
+    rdfs:label "DB-015 Distribution board, B06" ;
+    brick:hasLocation bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-015" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000201" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000202 a brick:Electrical_Meter ;
+    rdfs:label "EM-006 Electricity meter, B06" ;
+    brick:hasLocation bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-006" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000202" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000203 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-035 Fire extinguisher, B06" ;
+    brick:hasLocation bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-035" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000203" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000204 a brick:Luminaire ;
+    rdfs:label "EXL-049 Combination exit and emergency light, B06" ;
+    brick:hasLocation bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-049" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000204" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000205 a brick:Luminaire ;
+    rdfs:label "EXL-050 Combination exit and emergency light, B06" ;
+    brick:hasLocation bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-050" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000205" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000206 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-012 Split system outdoor unit, B06" ;
+    brick:hasLocation bldg:c3f4660b-9d71-411b-9276-9b3770529cd7 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-012" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000206" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000207 a brick:Breaker_Panel ;
+    rdfs:label "DB-016 Distribution board, B07" ;
+    brick:hasLocation bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-016" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000207" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000208 a brick:Electrical_Meter ;
+    rdfs:label "EM-007 Electricity meter, B07" ;
+    brick:hasLocation bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-007" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000208" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000209 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-036 Fire extinguisher, B07" ;
+    brick:hasLocation bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-036" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000209" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000210 a brick:Luminaire ;
+    rdfs:label "EXL-051 Combination exit and emergency light, B07" ;
+    brick:hasLocation bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-051" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000210" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000211 a brick:Luminaire ;
+    rdfs:label "EXL-052 Combination exit and emergency light, B07" ;
+    brick:hasLocation bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-052" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000211" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000212 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-013 Split system outdoor unit, B07" ;
+    brick:hasLocation bldg:5c51e9df-e3f0-4c7c-aa52-c7f0a305ef67 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-013" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000212" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000213 a brick:Breaker_Panel ;
+    rdfs:label "DB-017 Distribution board, B08" ;
+    brick:hasLocation bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-017" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000213" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000214 a brick:Electrical_Meter ;
+    rdfs:label "EM-008 Electricity meter, B08" ;
+    brick:hasLocation bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-008" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000214" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000215 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-037 Fire extinguisher, B08" ;
+    brick:hasLocation bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-037" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000215" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000216 a brick:Luminaire ;
+    rdfs:label "EXL-053 Combination exit and emergency light, B08" ;
+    brick:hasLocation bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-053" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000216" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000217 a brick:Luminaire ;
+    rdfs:label "EXL-054 Combination exit and emergency light, B08" ;
+    brick:hasLocation bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-054" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000217" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000218 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-014 Split system outdoor unit, B08" ;
+    brick:hasLocation bldg:0d3668cb-f71f-41e4-a62b-ec4ff5da8c9c ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-014" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000218" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000219 a brick:Breaker_Panel ;
+    rdfs:label "DB-018 Distribution board, B09" ;
+    brick:hasLocation bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-018" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000219" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000220 a brick:Electrical_Meter ;
+    rdfs:label "EM-009 Electricity meter, B09" ;
+    brick:hasLocation bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    brick:isPartOf bldg:d9604a8d-6116-4941-80ca-5553cb1e23cd ;
+    plotlay:id "EM-009" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000220" ;
+    plotlay:type "elec_meter" .
+
+bldg:5a3e0000-0000-4000-8000-000000000221 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-038 Fire extinguisher, B09" ;
+    brick:hasLocation bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-038" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000221" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000222 a brick:Luminaire ;
+    rdfs:label "EXL-055 Combination exit and emergency light, B09" ;
+    brick:hasLocation bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-055" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000222" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000223 a brick:Luminaire ;
+    rdfs:label "EXL-056 Combination exit and emergency light, B09" ;
+    brick:hasLocation bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXL-056" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000223" ;
+    plotlay:type "combo_light" .
+
+bldg:5a3e0000-0000-4000-8000-000000000224 a brick:HVAC_Equipment ;
+    rdfs:label "ACU-015 Split system outdoor unit, B09" ;
+    brick:hasLocation bldg:e556dd09-8024-4bfc-8ccf-03819688b7a2 ;
+    brick:isPartOf bldg:58c742ed-5f63-43b7-907e-7bbef94e416f ;
+    plotlay:id "ACU-015" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000224" ;
+    plotlay:type "split_outdoor" .
+
+bldg:5a3e0000-0000-4000-8000-000000000225 a brick:Breaker_Panel ;
+    rdfs:label "DB-019 Distribution board, B10" ;
+    brick:hasLocation bldg:be6554d4-6c34-47fd-90bf-f22dd184fc9b ;
+    brick:isPartOf bldg:76d2c42e-5541-4e35-b381-038a431c9776 ;
+    plotlay:id "DB-019" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000225" ;
+    plotlay:type "db" .
+
+bldg:5a3e0000-0000-4000-8000-000000000226 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-039 Fire extinguisher, B10" ;
+    brick:hasLocation bldg:be6554d4-6c34-47fd-90bf-f22dd184fc9b ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-039" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000226" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000227 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EXT-040 Fire extinguisher, B11" ;
+    brick:hasLocation bldg:70dc128a-f2ad-43c4-bbff-9632f7a28e6f ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EXT-040" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000227" ;
+    plotlay:type "extinguisher" .
+
+bldg:5a3e0000-0000-4000-8000-000000000228 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EH-001 External fire hydrant, grounds" ;
+    brick:hasLocation bldg:36f44eae-6c82-4618-b1fc-e1daf9ea10bd ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EH-001" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000228" ;
+    plotlay:type "hydrant_external" .
+
+bldg:5a3e0000-0000-4000-8000-000000000229 a brick:Fire_Safety_Equipment ;
+    rdfs:label "EH-002 External fire hydrant, grounds" ;
+    brick:hasLocation bldg:36f44eae-6c82-4618-b1fc-e1daf9ea10bd ;
+    brick:isPartOf bldg:75b6976d-3455-4a66-b465-ecdf09a3b730 ;
+    plotlay:id "EH-002" ;
+    plotlay:guid "5a3e0000-0000-4000-8000-000000000229" ;
+    plotlay:type "hydrant_external" .
