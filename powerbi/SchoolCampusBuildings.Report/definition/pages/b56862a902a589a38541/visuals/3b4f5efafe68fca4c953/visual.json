@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Students 2025",
-              "nativeQueryRef": "Students 2025"
+              "nativeQueryRef": "Students 2025",
+              "displayName": "Students (FTE)"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Students, February 2025 (FTE)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

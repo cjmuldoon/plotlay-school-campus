@@ -15,7 +15,25 @@
    - By default the data is read from the repo's public copy on GitHub (`DataFolder` is `https://raw.githubusercontent.com/cjmuldoon/plotlay-school-campus/main/data/`). If Desktop asks how to connect, choose **Anonymous** and **Connect**.
    - To read the files on disk instead: **Home, Transform data, Edit parameters**, set `DataFolder` to the full path of the repo's `data` folder **ending with a backslash**, then **OK** and **Apply changes**.
    - If Desktop warns about privacy levels, choose **Ignore privacy levels** for this file (all sources are public open data) or set them to Public.
-4. After the refresh, the **Site against buildings** page reads 12.2 m² of grounds per student, 4.8 m² of footprint and 11.9 m² of floor space (estimated) for 2025, the README's figures. If it does, everything is joined correctly.
+4. Check the numbers (below).
+
+## Check the numbers after Refresh
+
+After **Refresh** (there are no slicers; every card is fixed to the year in its title):
+
+| Page | Card | Should read |
+|---|---|---|
+| Building by building | Buildings | 13 |
+| Building by building | Footprint m² | 9,484 |
+| Building by building | Floor m² (estimated) | 23,624 |
+| Site against buildings | Grounds m² per student, 2025 | 12.2 |
+| Site against buildings | Footprint m² per student, 2025 | 4.8 |
+| Site against buildings | Floor space m² per student, 2025 (estimated) | 11.9 |
+| Site against buildings | Students, February 2025 (FTE) | 1,983 |
+
+These are the README's figures. With nothing clicked, the **Over time** line runs from 1,210 students in 2007 to 1,990 in 2026, and the footprint columns stop at the 2023 snapshot.
+
+The sample pages (not about any real building) read: Assets 226, High or extreme 40, Past expected life 49; Open 36, Overdue 17, Raised in 12 months 802; Planned maintenance on time 86.9%, Safety measures overdue 7, Capital works backlog 3,922,000.
 
 ## Site level and building level
 
@@ -25,18 +43,16 @@
 
 Three pages read the tables in `data/sample/`: **Sample: risk** (the risk matrix, the assets by risk, each building's assets at high or extreme risk), **Sample: work orders** (open by priority and building, raised each month, reactive against planned) and **Sample: compliance** (planned maintenance on time, essential safety measures by status, the capital works backlog). The tables are `SampleSummary`, `SampleAssets`, `SampleRisk`, `SampleWorkOrders`, `SamplePM` and `SampleESM`; their measures are in the Sample data folder. They are sample data, not about University High School or any real building, and each page carries a Sample data tag. No other page or measure reads them.
 
-## The map setting Power BI asks for by hand
+## The maps
 
-Power BI keeps a custom map file inside the report only once you have chosen it, so do this once and save:
-
-- **Shape Map** (Building by building, and Sample: risk). Select the map, then **Format visual, Visual, Map settings**: Map type **Custom map**, **Add map type**, choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B13 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **Options, Preview features, Shape map visual**.
+- **Shape Map** (Building by building, and Sample: risk). The custom map, `data/geometry/campus_buildings.topojson`, is saved inside the report (`SchoolCampusBuildings.Report/StaticResources/RegisteredResources/campus_buildings.topojson`, a copy that keeps only the building key), so the thirteen buildings draw on open: by era on the first page, by sample assets at high or extreme risk on the risk page.
+- If a map shows the United States instead (an older Desktop can ignore a saved map): select it, then **Format visual** (the paintbrush), **Visual**, **Map settings**, **Map type: Custom map**, **Add map type** (or **Browse**), and choose `..\data\geometry\campus_buildings.topojson`. Under **View map keys** the keys B01 to B13 should match. Projection: Mercator. If the Shape Map is not in the Visualizations pane, turn it on in **File, Options and settings, Options, Preview features, Shape map visual** and restart Desktop.
+- If a Shape Map comes up empty after opening, drag the fields back: Location `Buildings[key]`, Legend `Buildings[era]` (first page) or Color saturation `[Sample high or extreme]` (risk page).
 - Optional, **Azure Maps**: add a reference layer from `..\data\geometry\campus_buildings.geojson`, join property `key`, map style **Grayscale (light)** or **Blank**. Do not publish satellite basemap screenshots.
-
-If the Shape Map comes up empty after opening, drag the fields back: Location `Buildings[key]`, Legend `Buildings[era]`.
 
 ## Save a .pbix too
 
-After the refresh and the map setting: **File, Save as**, type **Power BI file (\*.pbix)**, save as `powerbi\SchoolCampusBuildings.pbix`. It includes the data.
+After the refresh: **File, Save as**, type **Power BI file (\*.pbix)**, save as `powerbi\SchoolCampusBuildings.pbix`. It includes the data.
 
 ## Publish (only if you choose to)
 

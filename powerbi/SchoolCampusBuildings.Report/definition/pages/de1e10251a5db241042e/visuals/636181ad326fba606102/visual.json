@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Footprint m2",
-              "nativeQueryRef": "Footprint m2"
+              "nativeQueryRef": "Footprint m2",
+              "displayName": "Footprint (m²)"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Footprint m²'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

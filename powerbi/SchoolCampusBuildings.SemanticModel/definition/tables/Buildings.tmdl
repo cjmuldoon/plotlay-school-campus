@@ -48,29 +48,34 @@ table Buildings
 
 	/// Site level only: enrolments are never split across buildings
 	measure 'Grounds per student 2025' = DIVIDE ( [Site m2], [Students 2025] )
-		formatString: 0.0
+		formatString: #,0.0
 		displayFolder: Site level
 		lineageTag: ddb26317-f83b-f05c-4368-780c99707bc2
 
 	/// Site level: all buildings over the school enrolment
 	measure 'Footprint per student 2025' = DIVIDE ( CALCULATE ( [Footprint m2], ALL ( Buildings ) ), [Students 2025] )
-		formatString: 0.0
+		formatString: #,0.0
 		displayFolder: Site level
 		lineageTag: 62684079-f460-3079-fd9b-91db15ffc7f2
 
 	/// Site level: all buildings over the school enrolment (floor estimated)
 	measure 'Floor per student 2025' = DIVIDE ( CALCULATE ( [Floor m2 estimated], ALL ( Buildings ) ), [Students 2025] )
-		formatString: 0.0
+		formatString: #,0.0
 		displayFolder: Site level
 		lineageTag: 46a593b7-a4ab-99fb-f0aa-dcd30a5958f6
 
-	/// Footprint on each council snapshot (2014 to 2023)
-	measure 'Footprint on snapshot m2' = SUM ( FootprintByYear[footprint_m2] )
+	/// Footprint on one council snapshot: the year on the axis, or the latest (2023) when there is none
+	measure 'Footprint on snapshot m2' =
+			VAR y = MAX ( FootprintByYear[year] )
+			RETURN CALCULATE ( SUM ( FootprintByYear[footprint_m2] ), FootprintByYear[year] = y )
 		formatString: #,0
 		displayFolder: Over time
 		lineageTag: c4524a5c-2dd8-f210-c170-2999c1384e7a
 
-	measure Students = SUM ( Enrolments[fte_students] )
+	/// FTE enrolment in one year: the year on the axis, or the latest when there is none
+	measure Students =
+			VAR y = MAX ( Enrolments[year] )
+			RETURN CALCULATE ( SUM ( Enrolments[fte_students] ), Enrolments[year] = y )
 		formatString: #,0
 		displayFolder: Over time
 		lineageTag: be74589f-9d75-dc77-567d-d28a2ba0050d

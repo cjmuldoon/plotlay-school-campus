@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.key",
-              "nativeQueryRef": "key"
+              "nativeQueryRef": "key",
+              "displayName": "Building"
             },
             {
               "field": {
@@ -41,7 +42,8 @@
                 }
               },
               "queryRef": "Buildings.era",
-              "nativeQueryRef": "era"
+              "nativeQueryRef": "era",
+              "displayName": "Era"
             },
             {
               "field": {
@@ -55,7 +57,8 @@
                 }
               },
               "queryRef": "Buildings.footprint_m2",
-              "nativeQueryRef": "footprint_m2"
+              "nativeQueryRef": "footprint_m2",
+              "displayName": "Footprint (m²)"
             },
             {
               "field": {
@@ -69,7 +72,8 @@
                 }
               },
               "queryRef": "Buildings.height_m",
-              "nativeQueryRef": "height_m"
+              "nativeQueryRef": "height_m",
+              "displayName": "Height (m)"
             },
             {
               "field": {
@@ -83,7 +87,8 @@
                 }
               },
               "queryRef": "Buildings.storeys_est",
-              "nativeQueryRef": "storeys_est"
+              "nativeQueryRef": "storeys_est",
+              "displayName": "Storeys (est.)"
             },
             {
               "field": {
@@ -97,7 +102,8 @@
                 }
               },
               "queryRef": "Buildings.Floor share",
-              "nativeQueryRef": "Floor share"
+              "nativeQueryRef": "Floor share",
+              "displayName": "Share of floor"
             },
             {
               "field": {
@@ -111,10 +117,29 @@
                 }
               },
               "queryRef": "Buildings.clue_accessibility_rating",
-              "nativeQueryRef": "clue_accessibility_rating"
+              "nativeQueryRef": "clue_accessibility_rating",
+              "displayName": "Access rating"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Buildings"
+                  }
+                },
+                "Property": "key"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -133,6 +158,141 @@
               "expr": {
                 "Literal": {
                   "Value": "'Each building'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83.7D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.key"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "208.4D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.era"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "91.5D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.footprint_m2"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "72.1D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.height_m"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "75.9D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.storeys_est"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "64.2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.Floor share"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "70.2D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Buildings.clue_accessibility_rating"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

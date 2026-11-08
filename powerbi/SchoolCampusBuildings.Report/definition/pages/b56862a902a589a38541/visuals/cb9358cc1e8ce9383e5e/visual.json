@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Grounds per student 2025",
-              "nativeQueryRef": "Grounds per student 2025"
+              "nativeQueryRef": "Grounds per student 2025",
+              "displayName": "Grounds m² per student"
             }
           ]
         }
@@ -48,7 +49,29 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Grounds per student (the site, one shape)'"
+                  "Value": "'Grounds m² per student, 2025 (the site, one shape)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Floor per student 2025",
-              "nativeQueryRef": "Floor per student 2025"
+              "nativeQueryRef": "Floor per student 2025",
+              "displayName": "Floor m² per student (est.)"
             }
           ]
         }
@@ -48,7 +49,29 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Floor space per student (estimated)'"
+                  "Value": "'Floor space m² per student, 2025 (estimated)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

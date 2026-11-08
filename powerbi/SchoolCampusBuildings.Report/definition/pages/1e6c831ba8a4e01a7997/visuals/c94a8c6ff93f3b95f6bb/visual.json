@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "FootprintByYear.year",
-              "nativeQueryRef": "year"
+              "nativeQueryRef": "year",
+              "displayName": "Year"
             }
           ]
         },
@@ -45,7 +46,8 @@
                 }
               },
               "queryRef": "Buildings.Footprint on snapshot m2",
-              "nativeQueryRef": "Footprint on snapshot m2"
+              "nativeQueryRef": "Footprint on snapshot m2",
+              "displayName": "Footprint (m²)"
             }
           ]
         },
@@ -63,10 +65,29 @@
                 }
               },
               "queryRef": "Buildings.era",
-              "nativeQueryRef": "era"
+              "nativeQueryRef": "era",
+              "displayName": "Era"
             }
           ]
         }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Buildings"
+                  }
+                },
+                "Property": "Footprint on snapshot m2"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": false
       }
     },
     "drillFilterOtherVisuals": true,
@@ -85,6 +106,41 @@
               "expr": {
                 "Literal": {
                   "Value": "'Footprint on each council snapshot, by era'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

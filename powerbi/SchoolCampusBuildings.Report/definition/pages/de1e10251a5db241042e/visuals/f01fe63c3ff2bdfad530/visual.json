@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Buildings.Floor m2 estimated",
-              "nativeQueryRef": "Floor m2 estimated"
+              "nativeQueryRef": "Floor m2 estimated",
+              "displayName": "Floor (m², estimated)"
             }
           ]
         }
@@ -49,6 +50,28 @@
               "expr": {
                 "Literal": {
                   "Value": "'Floor m² (estimated)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "categoryLabels": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
