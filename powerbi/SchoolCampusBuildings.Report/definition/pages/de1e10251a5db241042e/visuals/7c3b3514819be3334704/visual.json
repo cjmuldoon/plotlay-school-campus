@@ -5,8 +5,8 @@
     "x": 50,
     "y": 158,
     "z": 2,
-    "height": 212,
-    "width": 317.34375,
+    "height": 159,
+    "width": 329.34375,
     "tabOrder": 2
   },
   "visual": {
@@ -42,7 +42,7 @@
                     "value": "■ ",
                     "textStyle": {
                       "fontSize": "14pt",
-                      "color": "#2f9e8a",
+                      "color": "#786f44",
                       "fontFamily": "Segoe UI"
                     }
                   },
@@ -82,7 +82,7 @@
                     "value": "■ ",
                     "textStyle": {
                       "fontSize": "14pt",
-                      "color": "#e0714a",
+                      "color": "#d46e20",
                       "fontFamily": "Segoe UI"
                     }
                   },

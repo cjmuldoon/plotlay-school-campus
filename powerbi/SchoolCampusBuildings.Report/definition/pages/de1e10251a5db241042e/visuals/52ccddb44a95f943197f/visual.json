@@ -286,7 +286,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Buildings by era: navy built 1930, gold on the 2014 outlines, red shown from 2023, the other eras in between'"
+                  "Value": "'Buildings by era'"
                 }
               }
             },
@@ -322,7 +322,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#ece6d6'"
+                      "Value": "'#fbf9f3'"
                     }
                   }
                 }
@@ -344,7 +344,7 @@
   "annotations": [
     {
       "name": "plotlay.legend",
-      "value": "[[\"#163c6e\", \"1930, built (CLUE)\"], [\"#2f9e8a\", \"2014, built (CLUE)\"], [\"#d9a21b\", \"On the 2014 outlines\"], [\"#e0714a\", \"Shown from the 2018 footprints\"], [\"#cf3b26\", \"Shown from the 2023 footprints\"]]"
+      "value": "[[\"#163c6e\", \"1930, built (CLUE)\"], [\"#786f44\", \"2014, built (CLUE)\"], [\"#d9a21b\", \"On the 2014 outlines\"], [\"#d46e20\", \"Shown from the 2018 footprints\"], [\"#cf3b26\", \"Shown from the 2023 footprints\"]]"
     }
   ]
 }

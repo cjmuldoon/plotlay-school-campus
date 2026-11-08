@@ -19,11 +19,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "Building outlines 2014 and 2015, building footprints 2018 to 2023, property boundaries and CLUE building information: City of Melbourne Open Data, CC BY 4.0. Enrolments: Victorian Department of Education, All Schools FTE Enrolments (DataVic), CC BY 4.0. Suburbs on the map: ABS ASGS 2021 (CC BY 4.0). Shapes made in Plotlay (getplotlay.com). Floor space is an estimate.",
+                    "value": "Building outlines 2014 and 2015, building footprints 2018 to 2023, property boundaries and CLUE building information: City of Melbourne Open Data, CC BY 4.0. Enrolments: Victorian Department of Education, All Schools FTE Enrolments (DataVic), CC BY 4.0. Map context: ABS ASGS 2021 suburbs (CC BY 4.0), Vicmap Property road casements (CC BY 4.0). Shapes made in Plotlay (getplotlay.com). Floor space is an estimate.",
                     "textStyle": {
-                      "fontFamily": "Segoe UI",
                       "fontSize": "9pt",
-                      "color": "#5b6573"
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
                     }
                   }
                 ]

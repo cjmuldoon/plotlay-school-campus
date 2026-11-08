@@ -48,6 +48,7 @@ UPSTREAM SOURCES
     included in this repository. The other visuals draw their base from the council layers above.
 
 POWER BI MAP CONTEXT
+  Road casements: Vicmap Property, (c) State of Victoria (DTP), CC BY 4.0 (site maps: the roads are cut out of the land so they show as paler streets).
   The Shape Maps in powerbi/ draw context round the buildings: City of Melbourne property boundaries (City of
   Melbourne Open Data, CC BY 4.0) and suburb boundaries (Australian Bureau of Statistics, ASGS Edition 3, Suburbs
   and Localities 2021, CC BY 4.0), cut to the map frame, and the school property outline from

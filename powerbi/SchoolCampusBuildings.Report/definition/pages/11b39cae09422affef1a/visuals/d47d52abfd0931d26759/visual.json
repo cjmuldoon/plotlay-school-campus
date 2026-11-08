@@ -19,11 +19,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "Sample data: these figures are not about University High School or any real building (data/sample/README.md says how they were made). Outlines and property boundaries: City of Melbourne Open Data, CC BY 4.0. Suburbs: ABS ASGS 2021 (CC BY 4.0).",
+                    "value": "Sample data: these figures are not about University High School or any real building (data/sample/README.md says how they were made). Outlines and property boundaries: City of Melbourne Open Data, CC BY 4.0. Suburbs: ABS ASGS 2021 (CC BY 4.0). Road casements: Vicmap Property (CC BY 4.0).",
                     "textStyle": {
-                      "fontFamily": "Segoe UI",
                       "fontSize": "9pt",
-                      "color": "#5b6573"
+                      "color": "#5b6573",
+                      "fontFamily": "Segoe UI"
                     }
                   }
                 ]
