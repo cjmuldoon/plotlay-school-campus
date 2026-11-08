@@ -32,25 +32,6 @@
             }
           ]
         },
-        "Tooltips": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "SampleAssets"
-                    }
-                  },
-                  "Property": "Sample assets"
-                }
-              },
-              "queryRef": "SampleAssets.Sample assets",
-              "nativeQueryRef": "Sample assets",
-              "displayName": "Assets"
-            }
-          ]
-        },
         "Value": {
           "projections": [
             {
@@ -69,6 +50,25 @@
               "displayName": "High or extreme"
             }
           ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleAssets"
+                    }
+                  },
+                  "Property": "Sample assets"
+                }
+              },
+              "queryRef": "SampleAssets.Sample assets",
+              "nativeQueryRef": "Sample assets",
+              "displayName": "Assets"
+            }
+          ]
         }
       }
     },
@@ -76,6 +76,20 @@
       "shape": [
         {
           "properties": {
+            "datasourceType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'file_upload'"
+                }
+              }
+            },
+            "mapUrl": {
+              "expr": {
+                "Literal": {
+                  "Value": "''"
+                }
+              }
+            },
             "map": {
               "geoJson": {
                 "type": {
@@ -88,7 +102,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'campus_buildings.topojson'"
+                      "Value": "'campus_buildings_870x440.topojson'"
                     }
                   }
                 },
@@ -97,7 +111,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "campus_buildings.topojson"
+                      "ItemName": "campus_buildings_870x440.topojson"
                     }
                   }
                 }
@@ -243,7 +257,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#d6e6ef'"
+                      "Value": "'#ece6d6'"
                     }
                   }
                 }
@@ -261,5 +275,11 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  }
+  },
+  "annotations": [
+    {
+      "name": "plotlay.legend",
+      "value": "[[\"#6b1a10\", \"darker: more\"], [\"#f8dcc6\", \"paler: less\"]]"
+    }
+  ]
 }

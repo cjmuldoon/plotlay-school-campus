@@ -886,6 +886,27 @@ cultureInfo en-AU
 			          }
 			        }
 			      ]
+			    },
+			    "buildings.era_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Buildings",
+			          "ConceptualProperty": "Era code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Era code": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  }
 			}
