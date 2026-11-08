@@ -49,3 +49,4 @@ table Enrolments
 				    Typed
 
 	annotation PBI_ResultType = Table
+

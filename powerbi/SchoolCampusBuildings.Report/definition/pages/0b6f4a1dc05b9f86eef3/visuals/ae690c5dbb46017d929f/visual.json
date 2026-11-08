@@ -1,9 +1,9 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "ae690c5dbb46017d929f",
   "position": {
     "x": 40,
-    "y": 1030,
+    "y": 1021,
     "z": 99,
     "height": 40,
     "width": 1840,
@@ -21,9 +21,9 @@
                   {
                     "value": "Sample data: these figures are not about University High School or any real building (data/sample/README.md says how they were made). Outlines and property boundaries: City of Melbourne Open Data, CC BY 4.0. Suburbs: ABS ASGS 2021 (CC BY 4.0).",
                     "textStyle": {
+                      "fontFamily": "Segoe UI",
                       "fontSize": "9pt",
-                      "color": "#5b6573",
-                      "fontFamily": "Segoe UI"
+                      "color": "#5b6573"
                     }
                   }
                 ]

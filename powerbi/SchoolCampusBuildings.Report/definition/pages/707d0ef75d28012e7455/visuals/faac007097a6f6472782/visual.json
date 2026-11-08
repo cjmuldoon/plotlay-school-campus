@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "faac007097a6f6472782",
   "position": {
     "x": 1010,
@@ -10,7 +10,7 @@
     "tabOrder": 1
   },
   "visual": {
-    "visualType": "stackedBarChart",
+    "visualType": "barChart",
     "query": {
       "queryState": {
         "Category": {
@@ -28,8 +28,8 @@
               },
               "queryRef": "Buildings.key",
               "nativeQueryRef": "key",
-              "displayName": "Building",
-              "active": true
+              "active": true,
+              "displayName": "Building"
             }
           ]
         },
@@ -90,7 +90,34 @@
         ]
       }
     },
-    "drillFilterOtherVisuals": true,
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
     "visualContainerObjects": {
       "title": [
         {
@@ -127,33 +154,52 @@
         }
       ]
     },
-    "objects": {
-      "categoryAxis": [
-        {
-          "properties": {
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "b037ed64bb94dceee3ae",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Buildings"
               }
-            }
+            },
+            "Property": "key"
           }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "6de2e25750b7b1e5be02",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SampleESM"
               }
-            }
+            },
+            "Property": "Sample ESM measures"
           }
-        }
-      ]
-    }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "85c7ed3a6457ca066aed",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SampleESM"
+              }
+            },
+            "Property": "status"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
   }
 }

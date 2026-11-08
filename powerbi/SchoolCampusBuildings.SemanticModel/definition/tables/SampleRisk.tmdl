@@ -1,6 +1,13 @@
 table SampleRisk
 	lineageTag: 599a75d1-4667-f840-acf3-506f5bfb2a25
 
+	/// Sample data: not about University High School or any real building. Background colour of a risk matrix cell by its score
+	measure 'Sample risk colour' =
+			VAR s = SELECTEDVALUE ( SampleRisk[likelihood_1to5] ) * SELECTEDVALUE ( SampleRisk[consequence_1to5] )
+			RETURN IF ( NOT ISBLANK ( [Sample assets scored] ), SWITCH ( TRUE (), s >= 20, "#e8706b", s >= 12, "#f6ad6b", s >= 6, "#ffe08a", s >= 1, "#a8dba8" ) )
+		displayFolder: Sample data
+		lineageTag: 5870a8ab-10e9-cd04-e038-6f544381bdb4
+
 	/// Sample data: not about University High School or any real building
 	measure 'Sample assets scored' = COUNTROWS ( SampleRisk )
 		formatString: #,0
@@ -94,3 +101,4 @@ table SampleRisk
 				    Typed
 
 	annotation PBI_ResultType = Table
+

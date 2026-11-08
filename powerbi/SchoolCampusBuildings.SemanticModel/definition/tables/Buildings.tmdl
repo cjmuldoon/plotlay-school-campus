@@ -1,6 +1,11 @@
 table Buildings
 	lineageTag: 9fdd5aad-7ea5-28df-6738-692b788cee0a
 
+	/// For the map: each era as a code, 1 (built 1930) to 5 (shown from 2023), coloured on a gradient
+	measure 'Era code' = SWITCH ( SELECTEDVALUE ( Buildings[era] ), "1930, built (CLUE)", 1, "2014, built (CLUE)", 2, "On the 2014 outlines", 3, "Shown from the 2018 footprints", 4, "Shown from the 2023 footprints", 5 )
+		formatString: 0
+		lineageTag: 83ca8e5d-29aa-71a5-4fa4-f43619ab3028
+
 	measure 'Buildings count' = DISTINCTCOUNT ( Buildings[key] )
 		formatString: 0
 		displayFolder: Buildings
@@ -245,3 +250,4 @@ table Buildings
 				    Typed
 
 	annotation PBI_ResultType = Table
+

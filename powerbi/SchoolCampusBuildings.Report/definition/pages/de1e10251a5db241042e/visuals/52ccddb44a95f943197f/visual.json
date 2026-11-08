@@ -32,27 +32,47 @@
             }
           ]
         },
-        "Series": {
+        "Value": {
           "projections": [
             {
               "field": {
-                "Column": {
+                "Measure": {
                   "Expression": {
                     "SourceRef": {
                       "Entity": "Buildings"
                     }
                   },
-                  "Property": "era"
+                  "Property": "Era code"
                 }
               },
-              "queryRef": "Buildings.era",
-              "nativeQueryRef": "era",
-              "displayName": "Era"
+              "queryRef": "Buildings.Era code",
+              "nativeQueryRef": "Era code",
+              "displayName": "Era code"
             }
           ]
         },
         "Tooltips": {
           "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Buildings"
+                        }
+                      },
+                      "Property": "era"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(Buildings.era)",
+              "nativeQueryRef": "era",
+              "displayName": "Era"
+            },
             {
               "field": {
                 "Measure": {
@@ -102,7 +122,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Buildings by era'"
+                  "Value": "'Buildings by era: navy built 1930, gold on the 2014 outlines, red shown from 2023, the other eras in between'"
                 }
               }
             },
@@ -239,6 +259,80 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fillRule": {
+              "linearGradient3": {
+                "min": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#163c6e'"
+                      }
+                    }
+                  },
+                  "value": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "1D"
+                      }
+                    }
+                  }
+                },
+                "mid": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#d9a21b'"
+                      }
+                    }
+                  },
+                  "value": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "3D"
+                      }
+                    }
+                  }
+                },
+                "max": {
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#cf3b26'"
+                      }
+                    }
+                  },
+                  "value": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "5D"
+                      }
+                    }
+                  }
+                },
+                "nullColoringStrategy": {
+                  "strategy": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'specificColor'"
+                      }
+                    }
+                  },
+                  "color": {
+                    "expr": {
+                      "Literal": {
+                        "Value": "'#cfcac0'"
+                      }
+                    }
+                  }
                 }
               }
             }

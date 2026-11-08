@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "SchoolCampusBuildings"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f0d91618-c0af-48f5-8c32-0540279bb8a6"
+  }
+}
