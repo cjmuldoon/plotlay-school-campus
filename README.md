@@ -30,7 +30,7 @@ The other school maps draw one shape per school and divide its grounds (the land
 - **More students, the same grounds.** Enrolments rose from 1,210 in 2007 to 1,990 in 2026. Grounds per student fell from 20.0 m² to 12.2 m². Six single-storey buildings of 195 to 205 m², 3.7 to 4.0 m high with gable roofs, are not on the council's 2020 footprints and are on the 2023 ones (captured January 2022). Enrolment grew by 321 between 2020 and 2025.
 - **Three quarters of the floor is one building.** The main building holds 75.9% of the estimated floor area. A site-level figure cannot say whether that floor is in a 1930 building or a new one; building by building it can.
 
-![The same campus in 3D, each building at its council height](visuals/massing_3d_16x9.png)
+![The same campus in 3D, each building at its council height, rendered in Plotlay with the winter sun](visuals/render_3d_16x9.png)
 
 ### Read it carefully
 
