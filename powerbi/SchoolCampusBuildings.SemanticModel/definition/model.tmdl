@@ -7,10 +7,7 @@ model Model
 		returnErrorValuesAsNull
 
 annotation PBI_QueryOrder = ["DataFolder", "GetFile", "Buildings", "FootprintByYear", "Site", "Enrolments", "SampleSummary", "SampleAssets", "SampleRisk", "SampleWorkOrders", "SamplePM", "SampleESM"]
-
 annotation __PBI_TimeIntelligenceEnabled = 0
-
-annotation PBI_ProTooling = ["DevMode"]
 
 ref table Buildings
 ref table FootprintByYear
@@ -24,4 +21,3 @@ ref table SamplePM
 ref table SampleESM
 
 ref cultureInfo en-AU
-

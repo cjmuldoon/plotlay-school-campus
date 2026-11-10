@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "cc48667533981909a8fc",
   "position": {
     "x": 40,
@@ -13,26 +13,6 @@
     "visualType": "pivotTable",
     "query": {
       "queryState": {
-        "Columns": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "SampleRisk"
-                    }
-                  },
-                  "Property": "consequence_1to5"
-                }
-              },
-              "queryRef": "SampleRisk.consequence_1to5",
-              "nativeQueryRef": "consequence_1to5",
-              "active": true,
-              "displayName": "Consequence"
-            }
-          ]
-        },
         "Rows": {
           "projections": [
             {
@@ -48,8 +28,26 @@
               },
               "queryRef": "SampleRisk.likelihood_1to5",
               "nativeQueryRef": "likelihood_1to5",
-              "active": true,
               "displayName": "Likelihood"
+            }
+          ]
+        },
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "SampleRisk"
+                    }
+                  },
+                  "Property": "consequence_1to5"
+                }
+              },
+              "queryRef": "SampleRisk.consequence_1to5",
+              "nativeQueryRef": "consequence_1to5",
+              "displayName": "Consequence"
             }
           ]
         },
@@ -73,6 +71,43 @@
           ]
         }
       }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Risk matrix: assets in each cell (Sample data)'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Segoe UI Semibold'"
+                }
+              }
+            }
+          }
+        }
+      ]
     },
     "objects": {
       "values": [
@@ -136,6 +171,22 @@
           }
         }
       ],
+      "columnFormatting": [
+        {
+          "properties": {
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "SampleRisk.Sample assets scored"
+          }
+        }
+      ],
       "columnHeaders": [
         {
           "properties": {
@@ -160,6 +211,13 @@
                 }
               }
             },
+            "titleAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Center'"
+                }
+              }
+            },
             "autoSizeColumnWidth": {
               "expr": {
                 "Literal": {
@@ -171,13 +229,6 @@
               "expr": {
                 "Literal": {
                   "Value": "true"
-                }
-              }
-            },
-            "titleAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Center'"
                 }
               }
             }
@@ -286,293 +337,9 @@
           "selector": {
             "metadata": "SampleRisk.likelihood_1to5"
           }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Literal": {
-                  "Value": "153.6975238403394D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "SampleRisk"
-                          }
-                        },
-                        "Property": "consequence_1to5"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "1L"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Literal": {
-                  "Value": "157.74021352313167D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "SampleRisk"
-                          }
-                        },
-                        "Property": "consequence_1to5"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "2L"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Literal": {
-                  "Value": "150.47776294479922D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "SampleRisk"
-                          }
-                        },
-                        "Property": "consequence_1to5"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "3L"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Literal": {
-                  "Value": "138.24435977155215D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "SampleRisk"
-                          }
-                        },
-                        "Property": "consequence_1to5"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "4L"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Literal": {
-                  "Value": "147.582551006765D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "scopeId": {
-                  "Comparison": {
-                    "ComparisonKind": 0,
-                    "Left": {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Entity": "SampleRisk"
-                          }
-                        },
-                        "Property": "consequence_1to5"
-                      }
-                    },
-                    "Right": {
-                      "Literal": {
-                        "Value": "5L"
-                      }
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        }
-      ],
-      "columnFormatting": [
-        {
-          "properties": {
-            "alignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Center'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "SampleRisk.Sample assets scored"
-          }
         }
       ]
-    },
-    "visualContainerObjects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Risk matrix: assets in each cell (Sample data)'"
-                }
-              }
-            },
-            "titleWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Segoe UI Semibold'"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
-    "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "c12ea43e068006e2062a",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "SampleRisk"
-              }
-            },
-            "Property": "likelihood_1to5"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "5bd74c62b50978283a00",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "SampleRisk"
-              }
-            },
-            "Property": "consequence_1to5"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "7eb4df0c9c607c6e82bd",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "SampleRisk"
-              }
-            },
-            "Property": "Sample assets scored"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
+    }
   },
   "annotations": [
     {

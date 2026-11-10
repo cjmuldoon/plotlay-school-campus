@@ -1,11 +1,11 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "faac007097a6f6472782",
   "position": {
     "x": 1010,
-    "y": 130,
+    "y": 144,
     "z": 1,
-    "height": 880,
+    "height": 866,
     "width": 870,
     "tabOrder": 1
   },
@@ -28,8 +28,8 @@
               },
               "queryRef": "Buildings.key",
               "nativeQueryRef": "key",
-              "active": true,
-              "displayName": "Building"
+              "displayName": "Building",
+              "active": true
             }
           ]
         },
@@ -90,34 +90,7 @@
         ]
       }
     },
-    "objects": {
-      "categoryAxis": [
-        {
-          "properties": {
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
+    "drillFilterOtherVisuals": true,
     "visualContainerObjects": {
       "title": [
         {
@@ -154,52 +127,40 @@
         }
       ]
     },
-    "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "b037ed64bb94dceee3ae",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Buildings"
+    "objects": {
+      "categoryAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
               }
             },
-            "Property": "key"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "6de2e25750b7b1e5be02",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "SampleESM"
+            "axisType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Categorical'"
+                }
               }
-            },
-            "Property": "Sample ESM measures"
+            }
           }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "85c7ed3a6457ca066aed",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "SampleESM"
+        }
+      ],
+      "valueAxis": [
+        {
+          "properties": {
+            "showAxisTitle": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
               }
-            },
-            "Property": "status"
+            }
           }
-        },
-        "type": "Categorical"
-      }
-    ]
+        }
+      ]
+    }
   }
 }
